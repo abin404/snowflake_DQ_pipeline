@@ -1,0 +1,23 @@
+[2022-07-22 16:48:58,981] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: Data_Quality_Pipeline.add_upload_date__1 manual__2022-07-22T16:48:54.121723+00:00 [queued]>
+[2022-07-22 16:48:58,997] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: Data_Quality_Pipeline.add_upload_date__1 manual__2022-07-22T16:48:54.121723+00:00 [queued]>
+[2022-07-22 16:48:58,997] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-22 16:48:58,997] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2022-07-22 16:48:58,998] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-22 16:48:59,028] {taskinstance.py:1397} INFO - Executing <Task(_PythonDecoratedOperator): add_upload_date__1> on 2022-07-22 16:48:54.121723+00:00
+[2022-07-22 16:48:59,038] {standard_task_runner.py:52} INFO - Started process 6347 to run task
+[2022-07-22 16:48:59,050] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'Data_Quality_Pipeline', 'add_upload_date__1', 'manual__2022-07-22T16:48:54.121723+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/localtos3.py', '--cfg-path', '/tmp/tmpei136rwy', '--error-file', '/tmp/tmp40zec7sp']
+[2022-07-22 16:48:59,056] {standard_task_runner.py:80} INFO - Job 13: Subtask add_upload_date__1
+[2022-07-22 16:48:59,187] {task_command.py:371} INFO - Running <TaskInstance: Data_Quality_Pipeline.add_upload_date__1 manual__2022-07-22T16:48:54.121723+00:00 [running]> on host d30608300872
+[2022-07-22 16:48:59,339] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=Data_Quality_Pipeline
+AIRFLOW_CTX_TASK_ID=add_upload_date__1
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-22T16:48:54.121723+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-22T16:48:54.121723+00:00
+[2022-07-22 16:48:59,688] {python.py:173} INFO - Done. Returned value was: None
+[2022-07-22 16:48:59,708] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=Data_Quality_Pipeline, task_id=add_upload_date__1, execution_date=20220722T164854, start_date=20220722T164858, end_date=20220722T164859
+[2022-07-22 16:48:59,788] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-07-22 16:48:59,914] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

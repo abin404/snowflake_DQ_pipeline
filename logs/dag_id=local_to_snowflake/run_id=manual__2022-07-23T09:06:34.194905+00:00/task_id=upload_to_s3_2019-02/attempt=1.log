@@ -1,0 +1,24 @@
+[2022-07-23 09:06:53,337] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: local_to_snowflake.upload_to_s3_2019-02 manual__2022-07-23T09:06:34.194905+00:00 [queued]>
+[2022-07-23 09:06:53,395] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: local_to_snowflake.upload_to_s3_2019-02 manual__2022-07-23T09:06:34.194905+00:00 [queued]>
+[2022-07-23 09:06:53,395] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-23 09:06:53,396] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2022-07-23 09:06:53,396] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-23 09:06:53,465] {taskinstance.py:1397} INFO - Executing <Task(LocalFilesystemToS3Operator): upload_to_s3_2019-02> on 2022-07-23 09:06:34.194905+00:00
+[2022-07-23 09:06:53,479] {standard_task_runner.py:52} INFO - Started process 160 to run task
+[2022-07-23 09:06:53,490] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'local_to_snowflake', 'upload_to_s3_2019-02', 'manual__2022-07-23T09:06:34.194905+00:00', '--job-id', '48', '--raw', '--subdir', 'DAGS_FOLDER/localtosnowflake.py', '--cfg-path', '/tmp/tmptf04532w', '--error-file', '/tmp/tmpuxglc5ub']
+[2022-07-23 09:06:53,496] {standard_task_runner.py:80} INFO - Job 48: Subtask upload_to_s3_2019-02
+[2022-07-23 09:06:53,716] {task_command.py:371} INFO - Running <TaskInstance: local_to_snowflake.upload_to_s3_2019-02 manual__2022-07-23T09:06:34.194905+00:00 [running]> on host cbd64c50b1d6
+[2022-07-23 09:06:54,060] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=local_to_snowflake
+AIRFLOW_CTX_TASK_ID=upload_to_s3_2019-02
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-23T09:06:34.194905+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-23T09:06:34.194905+00:00
+[2022-07-23 09:06:54,102] {base.py:68} INFO - Using connection ID 'aws-conn' for task execution.
+[2022-07-23 09:06:54,108] {base_aws.py:206} INFO - Credentials retrieved from login
+[2022-07-23 09:06:55,645] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=local_to_snowflake, task_id=upload_to_s3_2019-02, execution_date=20220723T090634, start_date=20220723T090653, end_date=20220723T090655
+[2022-07-23 09:06:55,734] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-07-23 09:06:55,962] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

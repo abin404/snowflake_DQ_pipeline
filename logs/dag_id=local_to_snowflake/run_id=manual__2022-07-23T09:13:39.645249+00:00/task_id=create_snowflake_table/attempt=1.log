@@ -1,0 +1,58 @@
+[2022-07-23 09:13:57,388] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: local_to_snowflake.create_snowflake_table manual__2022-07-23T09:13:39.645249+00:00 [queued]>
+[2022-07-23 09:13:57,432] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: local_to_snowflake.create_snowflake_table manual__2022-07-23T09:13:39.645249+00:00 [queued]>
+[2022-07-23 09:13:57,432] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-23 09:13:57,432] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2022-07-23 09:13:57,432] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-23 09:13:57,529] {taskinstance.py:1397} INFO - Executing <Task(SnowflakeOperator): create_snowflake_table> on 2022-07-23 09:13:39.645249+00:00
+[2022-07-23 09:13:57,543] {standard_task_runner.py:52} INFO - Started process 495 to run task
+[2022-07-23 09:13:57,582] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'local_to_snowflake', 'create_snowflake_table', 'manual__2022-07-23T09:13:39.645249+00:00', '--job-id', '54', '--raw', '--subdir', 'DAGS_FOLDER/localtosnowflake.py', '--cfg-path', '/tmp/tmpal267_mg', '--error-file', '/tmp/tmpm9hixzcn']
+[2022-07-23 09:13:57,584] {standard_task_runner.py:80} INFO - Job 54: Subtask create_snowflake_table
+[2022-07-23 09:13:57,818] {task_command.py:371} INFO - Running <TaskInstance: local_to_snowflake.create_snowflake_table manual__2022-07-23T09:13:39.645249+00:00 [running]> on host cbd64c50b1d6
+[2022-07-23 09:13:58,158] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=local_to_snowflake
+AIRFLOW_CTX_TASK_ID=create_snowflake_table
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-23T09:13:39.645249+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-23T09:13:39.645249+00:00
+[2022-07-23 09:13:58,160] {snowflake.py:118} INFO - Executing: CREATE TABLE IF NOT EXISTS PUBLIC.YELLOW_TRIPDATA
+(vendor_id int,
+pickup_datetime timestamp,
+dropoff_datetime timestamp,
+passenger_count int,
+trip_distance float,
+rate_code_id int,
+store_and_fwd_flag varchar,
+pickup_location_id int,
+dropoff_location_id int,
+payment_type int,
+fare_amount float,
+extra float,
+mta_tax float,
+tip_amount float,
+tolls_amount float,
+improvement_surcharge float,
+total_amount float,
+congestion_surcharge float,
+upload_date timestamp);
+[2022-07-23 09:13:58,236] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/snowflake/operators/snowflake.py", line 120, in execute
+    execution_info = hook.run(self.sql, autocommit=self.autocommit, parameters=self.parameters)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 320, in run
+    with closing(self.get_conn()) as conn:
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 258, in get_conn
+    conn_config = self._get_conn_params()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 160, in _get_conn_params
+    conn = self.get_connection(self.snowflake_conn_id)  # type: ignore[attr-defined]
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/base.py", line 67, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/connection.py", line 430, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `snowflake_default` isn't defined
+[2022-07-23 09:13:58,255] {taskinstance.py:1420} INFO - Marking task as FAILED. dag_id=local_to_snowflake, task_id=create_snowflake_table, execution_date=20220723T091339, start_date=20220723T091357, end_date=20220723T091358
+[2022-07-23 09:13:58,307] {standard_task_runner.py:97} ERROR - Failed to execute job 54 for task create_snowflake_table (The conn_id `snowflake_default` isn't defined; 495)
+[2022-07-23 09:13:58,366] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-07-23 09:13:58,536] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

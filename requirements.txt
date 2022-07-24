@@ -1,0 +1,19 @@
+#s constraints file was automatically generated on 2022-07-05T21:12:15Z
+# via "eager-upgrade" mechanism of PIP. For the "v2-3-test" branch of Airflow.
+# This variant of constraints install uses the HEAD of the branch version for 'apache-airflow' but installs
+# the providers from PIP-released packages at the moment of the constraint generation.
+#
+# Those constraints are actually those that regular users use to install released version of Airflow.
+# We also use those constraints after "apache-airflow" is released and the constraints are tagged with
+# "constraints-X.Y.Z" tag to build the production image for that version.
+#
+# Editable install with no version control (apache-airflow==2.3.3)
+apache-airflow-providers-amazon==4.0.0
+apache-airflow-providers-microsoft-azure==4.0.0
+apache-airflow-providers-snowflake==3.0.0
+azure-datalake-store==0.0.52
+azure-storage-blob==12.8.1
+azure-storage-common==2.1.0
+azure-storage-file==2.1.0
+snowflake-connector-python==2.7.9
+snowflake-sqlalchemy==1.3.4

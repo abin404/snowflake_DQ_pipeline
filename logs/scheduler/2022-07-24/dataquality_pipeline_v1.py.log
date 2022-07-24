@@ -1,0 +1,347 @@
+[2022-07-24 08:20:58,083] {processor.py:153} INFO - Started process (PID=23522) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:20:58,084] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:20:58,085] {logging_mixin.py:115} INFO - [2022-07-24 08:20:58,085] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:20:59,337] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_snowflake']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:20:59,779] {logging_mixin.py:115} INFO - [2022-07-24 08:20:59,779] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:20:59,834] {logging_mixin.py:115} INFO - [2022-07-24 08:20:59,834] {dag.py:2972} INFO - Setting next_dagrun for local_to_snowflake to None, run_after=None
+[2022-07-24 08:20:59,877] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 1.806 seconds
+[2022-07-24 08:21:30,429] {processor.py:153} INFO - Started process (PID=23597) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:21:30,431] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:21:30,432] {logging_mixin.py:115} INFO - [2022-07-24 08:21:30,432] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:21:31,155] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_snowflake']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:21:31,362] {logging_mixin.py:115} INFO - [2022-07-24 08:21:31,362] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:21:31,384] {logging_mixin.py:115} INFO - [2022-07-24 08:21:31,384] {dag.py:2972} INFO - Setting next_dagrun for local_to_snowflake to None, run_after=None
+[2022-07-24 08:21:31,396] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 0.976 seconds
+[2022-07-24 08:22:01,658] {processor.py:153} INFO - Started process (PID=23663) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:22:01,663] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:22:01,664] {logging_mixin.py:115} INFO - [2022-07-24 08:22:01,663] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:22:02,913] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_snowflake']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:22:03,184] {logging_mixin.py:115} INFO - [2022-07-24 08:22:03,183] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:22:03,222] {logging_mixin.py:115} INFO - [2022-07-24 08:22:03,222] {dag.py:2972} INFO - Setting next_dagrun for local_to_snowflake to None, run_after=None
+[2022-07-24 08:22:03,241] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 1.606 seconds
+[2022-07-24 08:22:33,659] {processor.py:153} INFO - Started process (PID=23735) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:22:33,660] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:22:33,661] {logging_mixin.py:115} INFO - [2022-07-24 08:22:33,661] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:22:34,690] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_snowflake']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:22:34,988] {logging_mixin.py:115} INFO - [2022-07-24 08:22:34,988] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:22:35,009] {logging_mixin.py:115} INFO - [2022-07-24 08:22:35,009] {dag.py:2972} INFO - Setting next_dagrun for local_to_snowflake to None, run_after=None
+[2022-07-24 08:22:35,025] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 1.382 seconds
+[2022-07-24 08:23:05,642] {processor.py:153} INFO - Started process (PID=23803) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:23:05,656] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:23:05,657] {logging_mixin.py:115} INFO - [2022-07-24 08:23:05,657] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:23:07,792] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_snowflake']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:23:08,494] {logging_mixin.py:115} INFO - [2022-07-24 08:23:08,494] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:23:08,560] {logging_mixin.py:115} INFO - [2022-07-24 08:23:08,560] {dag.py:2972} INFO - Setting next_dagrun for local_to_snowflake to None, run_after=None
+[2022-07-24 08:23:08,592] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 2.957 seconds
+[2022-07-24 08:23:38,821] {processor.py:153} INFO - Started process (PID=23877) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:23:38,822] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:23:38,823] {logging_mixin.py:115} INFO - [2022-07-24 08:23:38,823] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:23:39,431] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_snowflake']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:23:39,712] {logging_mixin.py:115} INFO - [2022-07-24 08:23:39,711] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:23:39,752] {logging_mixin.py:115} INFO - [2022-07-24 08:23:39,752] {dag.py:2972} INFO - Setting next_dagrun for local_to_snowflake to None, run_after=None
+[2022-07-24 08:23:39,770] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 0.955 seconds
+[2022-07-24 08:24:01,463] {processor.py:153} INFO - Started process (PID=23926) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:24:01,464] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:24:01,465] {logging_mixin.py:115} INFO - [2022-07-24 08:24:01,465] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:24:02,652] {processor.py:651} INFO - DAG(s) dict_keys(['dataquality_pipeline_v1']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:24:03,053] {logging_mixin.py:115} INFO - [2022-07-24 08:24:03,053] {manager.py:508} INFO - Created Permission View: can delete on DAG:dataquality_pipeline_v1
+[2022-07-24 08:24:03,074] {logging_mixin.py:115} INFO - [2022-07-24 08:24:03,074] {manager.py:508} INFO - Created Permission View: can read on DAG:dataquality_pipeline_v1
+[2022-07-24 08:24:03,087] {logging_mixin.py:115} INFO - [2022-07-24 08:24:03,087] {manager.py:508} INFO - Created Permission View: can edit on DAG:dataquality_pipeline_v1
+[2022-07-24 08:24:03,087] {logging_mixin.py:115} INFO - [2022-07-24 08:24:03,087] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:24:03,102] {logging_mixin.py:115} INFO - [2022-07-24 08:24:03,102] {dag.py:2439} INFO - Creating ORM DAG for dataquality_pipeline_v1
+[2022-07-24 08:24:03,125] {logging_mixin.py:115} INFO - [2022-07-24 08:24:03,125] {dag.py:2972} INFO - Setting next_dagrun for dataquality_pipeline_v1 to None, run_after=None
+[2022-07-24 08:24:03,147] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 1.706 seconds
+[2022-07-24 08:24:33,899] {processor.py:153} INFO - Started process (PID=23994) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:24:33,900] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:24:33,901] {logging_mixin.py:115} INFO - [2022-07-24 08:24:33,901] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:24:34,598] {processor.py:651} INFO - DAG(s) dict_keys(['dataquality_pipeline_v1']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:24:34,824] {logging_mixin.py:115} INFO - [2022-07-24 08:24:34,823] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:24:34,847] {logging_mixin.py:115} INFO - [2022-07-24 08:24:34,847] {dag.py:2972} INFO - Setting next_dagrun for dataquality_pipeline_v1 to None, run_after=None
+[2022-07-24 08:24:34,861] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 0.968 seconds
+[2022-07-24 08:25:05,711] {processor.py:153} INFO - Started process (PID=24059) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:25:05,724] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:25:05,725] {logging_mixin.py:115} INFO - [2022-07-24 08:25:05,725] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:25:07,852] {processor.py:651} INFO - DAG(s) dict_keys(['dataquality_pipeline_v1']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:25:08,320] {logging_mixin.py:115} INFO - [2022-07-24 08:25:08,320] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:25:08,355] {logging_mixin.py:115} INFO - [2022-07-24 08:25:08,355] {dag.py:2972} INFO - Setting next_dagrun for dataquality_pipeline_v1 to None, run_after=None
+[2022-07-24 08:25:08,373] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 2.678 seconds
+[2022-07-24 08:25:38,537] {processor.py:153} INFO - Started process (PID=24132) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:25:38,539] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:25:38,539] {logging_mixin.py:115} INFO - [2022-07-24 08:25:38,539] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:25:39,148] {processor.py:651} INFO - DAG(s) dict_keys(['dataquality_pipeline_v1']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:25:39,460] {logging_mixin.py:115} INFO - [2022-07-24 08:25:39,460] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:25:39,495] {logging_mixin.py:115} INFO - [2022-07-24 08:25:39,495] {dag.py:2972} INFO - Setting next_dagrun for dataquality_pipeline_v1 to None, run_after=None
+[2022-07-24 08:25:39,529] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 0.998 seconds
+[2022-07-24 08:26:09,910] {processor.py:153} INFO - Started process (PID=24196) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:26:09,911] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:26:09,913] {logging_mixin.py:115} INFO - [2022-07-24 08:26:09,913] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:26:11,090] {processor.py:651} INFO - DAG(s) dict_keys(['dataquality_pipeline_v1']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:26:11,136] {logging_mixin.py:115} INFO - [2022-07-24 08:26:11,136] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:26:11,172] {logging_mixin.py:115} INFO - [2022-07-24 08:26:11,171] {dag.py:2972} INFO - Setting next_dagrun for dataquality_pipeline_v1 to None, run_after=None
+[2022-07-24 08:26:11,189] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 1.289 seconds
+[2022-07-24 08:26:41,554] {processor.py:153} INFO - Started process (PID=24272) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:26:41,555] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:26:41,556] {logging_mixin.py:115} INFO - [2022-07-24 08:26:41,556] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:26:42,829] {processor.py:651} INFO - DAG(s) dict_keys(['dataquality_pipeline_v1']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:26:42,871] {logging_mixin.py:115} INFO - [2022-07-24 08:26:42,871] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:26:42,915] {logging_mixin.py:115} INFO - [2022-07-24 08:26:42,915] {dag.py:2972} INFO - Setting next_dagrun for dataquality_pipeline_v1 to None, run_after=None
+[2022-07-24 08:26:42,938] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 1.390 seconds
+[2022-07-24 08:27:13,032] {processor.py:153} INFO - Started process (PID=24335) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:27:13,033] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:27:13,034] {logging_mixin.py:115} INFO - [2022-07-24 08:27:13,034] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:27:13,857] {processor.py:651} INFO - DAG(s) dict_keys(['dataquality_pipeline_v1']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:27:13,902] {logging_mixin.py:115} INFO - [2022-07-24 08:27:13,902] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:27:13,945] {logging_mixin.py:115} INFO - [2022-07-24 08:27:13,944] {dag.py:2972} INFO - Setting next_dagrun for dataquality_pipeline_v1 to None, run_after=None
+[2022-07-24 08:27:13,958] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 0.935 seconds
+[2022-07-24 08:27:44,743] {processor.py:153} INFO - Started process (PID=24399) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:27:44,744] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:27:44,745] {logging_mixin.py:115} INFO - [2022-07-24 08:27:44,745] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:27:45,652] {processor.py:651} INFO - DAG(s) dict_keys(['dataquality_pipeline_v1']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:27:45,683] {logging_mixin.py:115} INFO - [2022-07-24 08:27:45,682] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:27:45,712] {logging_mixin.py:115} INFO - [2022-07-24 08:27:45,712] {dag.py:2972} INFO - Setting next_dagrun for dataquality_pipeline_v1 to None, run_after=None
+[2022-07-24 08:27:45,728] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 0.992 seconds
+[2022-07-24 08:28:16,258] {processor.py:153} INFO - Started process (PID=24473) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:28:16,260] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:28:16,261] {logging_mixin.py:115} INFO - [2022-07-24 08:28:16,261] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:28:17,064] {processor.py:651} INFO - DAG(s) dict_keys(['dataquality_pipeline_v1']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:28:17,094] {logging_mixin.py:115} INFO - [2022-07-24 08:28:17,094] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:28:17,141] {logging_mixin.py:115} INFO - [2022-07-24 08:28:17,141] {dag.py:2972} INFO - Setting next_dagrun for dataquality_pipeline_v1 to None, run_after=None
+[2022-07-24 08:28:17,170] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 0.922 seconds
+[2022-07-24 08:28:47,342] {processor.py:153} INFO - Started process (PID=24536) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:28:47,349] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:28:47,354] {logging_mixin.py:115} INFO - [2022-07-24 08:28:47,354] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:28:48,832] {processor.py:651} INFO - DAG(s) dict_keys(['dataquality_pipeline_v1']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:28:48,912] {logging_mixin.py:115} INFO - [2022-07-24 08:28:48,911] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:28:48,974] {logging_mixin.py:115} INFO - [2022-07-24 08:28:48,974] {dag.py:2972} INFO - Setting next_dagrun for dataquality_pipeline_v1 to None, run_after=None
+[2022-07-24 08:28:49,016] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 1.691 seconds
+[2022-07-24 08:29:19,265] {processor.py:153} INFO - Started process (PID=24600) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:29:19,266] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:29:19,267] {logging_mixin.py:115} INFO - [2022-07-24 08:29:19,267] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:29:20,970] {processor.py:651} INFO - DAG(s) dict_keys(['dataquality_pipeline_v1']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:29:21,057] {logging_mixin.py:115} INFO - [2022-07-24 08:29:21,056] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:29:21,120] {logging_mixin.py:115} INFO - [2022-07-24 08:29:21,120] {dag.py:2972} INFO - Setting next_dagrun for dataquality_pipeline_v1 to None, run_after=None
+[2022-07-24 08:29:21,159] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 1.901 seconds
+[2022-07-24 08:29:51,512] {processor.py:153} INFO - Started process (PID=24676) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:29:51,513] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:29:51,514] {logging_mixin.py:115} INFO - [2022-07-24 08:29:51,514] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:29:52,450] {processor.py:651} INFO - DAG(s) dict_keys(['dataquality_pipeline_v1']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:29:52,480] {logging_mixin.py:115} INFO - [2022-07-24 08:29:52,479] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:29:52,519] {logging_mixin.py:115} INFO - [2022-07-24 08:29:52,519] {dag.py:2972} INFO - Setting next_dagrun for dataquality_pipeline_v1 to None, run_after=None
+[2022-07-24 08:29:52,537] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 1.030 seconds
+[2022-07-24 08:30:23,212] {processor.py:153} INFO - Started process (PID=24740) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:30:23,224] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:30:23,230] {logging_mixin.py:115} INFO - [2022-07-24 08:30:23,230] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:30:24,842] {processor.py:651} INFO - DAG(s) dict_keys(['dataquality_pipeline_v1']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:30:24,887] {logging_mixin.py:115} INFO - [2022-07-24 08:30:24,887] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:30:24,923] {logging_mixin.py:115} INFO - [2022-07-24 08:30:24,923] {dag.py:2972} INFO - Setting next_dagrun for dataquality_pipeline_v1 to None, run_after=None
+[2022-07-24 08:30:24,940] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 1.734 seconds
+[2022-07-24 08:30:55,849] {processor.py:153} INFO - Started process (PID=24814) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:30:55,850] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:30:55,853] {logging_mixin.py:115} INFO - [2022-07-24 08:30:55,853] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:30:56,879] {processor.py:651} INFO - DAG(s) dict_keys(['dataquality_pipeline_v1']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:30:56,907] {logging_mixin.py:115} INFO - [2022-07-24 08:30:56,907] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:30:56,928] {logging_mixin.py:115} INFO - [2022-07-24 08:30:56,928] {dag.py:2972} INFO - Setting next_dagrun for dataquality_pipeline_v1 to None, run_after=None
+[2022-07-24 08:30:56,941] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 1.102 seconds
+[2022-07-24 08:31:27,017] {processor.py:153} INFO - Started process (PID=24879) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:31:27,017] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:31:27,018] {logging_mixin.py:115} INFO - [2022-07-24 08:31:27,018] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:31:30,863] {processor.py:651} INFO - DAG(s) dict_keys(['dataquality_pipeline_v1']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:31:30,969] {logging_mixin.py:115} INFO - [2022-07-24 08:31:30,969] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:31:31,044] {logging_mixin.py:115} INFO - [2022-07-24 08:31:31,044] {dag.py:2972} INFO - Setting next_dagrun for dataquality_pipeline_v1 to None, run_after=None
+[2022-07-24 08:31:31,081] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 4.078 seconds
+[2022-07-24 08:32:01,154] {processor.py:153} INFO - Started process (PID=24943) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:32:01,155] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:32:01,155] {logging_mixin.py:115} INFO - [2022-07-24 08:32:01,155] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:32:02,211] {processor.py:651} INFO - DAG(s) dict_keys(['dataquality_pipeline_v1']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:32:02,256] {logging_mixin.py:115} INFO - [2022-07-24 08:32:02,256] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:32:02,292] {logging_mixin.py:115} INFO - [2022-07-24 08:32:02,292] {dag.py:2972} INFO - Setting next_dagrun for dataquality_pipeline_v1 to None, run_after=None
+[2022-07-24 08:32:02,309] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 1.162 seconds
+[2022-07-24 08:32:32,778] {processor.py:153} INFO - Started process (PID=25017) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:32:32,788] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:32:32,789] {logging_mixin.py:115} INFO - [2022-07-24 08:32:32,789] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:32:34,996] {processor.py:651} INFO - DAG(s) dict_keys(['dataquality_pipeline_v1']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:32:35,088] {logging_mixin.py:115} INFO - [2022-07-24 08:32:35,087] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:32:35,126] {logging_mixin.py:115} INFO - [2022-07-24 08:32:35,126] {dag.py:2972} INFO - Setting next_dagrun for dataquality_pipeline_v1 to None, run_after=None
+[2022-07-24 08:32:35,151] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 2.389 seconds
+[2022-07-24 08:33:05,382] {processor.py:153} INFO - Started process (PID=25082) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:33:05,383] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:33:05,384] {logging_mixin.py:115} INFO - [2022-07-24 08:33:05,384] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:33:06,245] {processor.py:651} INFO - DAG(s) dict_keys(['dataquality_pipeline_v1']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:33:06,275] {logging_mixin.py:115} INFO - [2022-07-24 08:33:06,274] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:33:06,296] {logging_mixin.py:115} INFO - [2022-07-24 08:33:06,296] {dag.py:2972} INFO - Setting next_dagrun for dataquality_pipeline_v1 to None, run_after=None
+[2022-07-24 08:33:06,309] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 0.933 seconds
+[2022-07-24 08:33:36,463] {processor.py:153} INFO - Started process (PID=25147) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:33:36,465] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:33:36,469] {logging_mixin.py:115} INFO - [2022-07-24 08:33:36,469] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:33:37,950] {processor.py:651} INFO - DAG(s) dict_keys(['dataquality_pipeline_v1']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:33:37,988] {logging_mixin.py:115} INFO - [2022-07-24 08:33:37,988] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:33:38,011] {logging_mixin.py:115} INFO - [2022-07-24 08:33:38,011] {dag.py:2972} INFO - Setting next_dagrun for dataquality_pipeline_v1 to None, run_after=None
+[2022-07-24 08:33:38,032] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 1.580 seconds
+[2022-07-24 08:34:08,352] {processor.py:153} INFO - Started process (PID=25222) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:34:08,353] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:34:08,354] {logging_mixin.py:115} INFO - [2022-07-24 08:34:08,354] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:34:09,816] {processor.py:651} INFO - DAG(s) dict_keys(['dataquality_pipeline_v1']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:34:09,873] {logging_mixin.py:115} INFO - [2022-07-24 08:34:09,873] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:34:09,909] {logging_mixin.py:115} INFO - [2022-07-24 08:34:09,909] {dag.py:2972} INFO - Setting next_dagrun for dataquality_pipeline_v1 to None, run_after=None
+[2022-07-24 08:34:09,936] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 1.590 seconds
+[2022-07-24 08:34:40,704] {processor.py:153} INFO - Started process (PID=25287) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:34:40,705] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:34:40,705] {logging_mixin.py:115} INFO - [2022-07-24 08:34:40,705] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:34:41,560] {processor.py:651} INFO - DAG(s) dict_keys(['dataquality_pipeline_v1']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:34:41,588] {logging_mixin.py:115} INFO - [2022-07-24 08:34:41,587] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:34:41,608] {logging_mixin.py:115} INFO - [2022-07-24 08:34:41,608] {dag.py:2972} INFO - Setting next_dagrun for dataquality_pipeline_v1 to None, run_after=None
+[2022-07-24 08:34:41,620] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 0.922 seconds
+[2022-07-24 08:35:12,380] {processor.py:153} INFO - Started process (PID=25361) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:35:12,381] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:35:12,381] {logging_mixin.py:115} INFO - [2022-07-24 08:35:12,381] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:35:13,206] {processor.py:651} INFO - DAG(s) dict_keys(['dataquality_pipeline_v1']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:35:13,237] {logging_mixin.py:115} INFO - [2022-07-24 08:35:13,237] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:35:13,273] {logging_mixin.py:115} INFO - [2022-07-24 08:35:13,273] {dag.py:2972} INFO - Setting next_dagrun for dataquality_pipeline_v1 to None, run_after=None
+[2022-07-24 08:35:13,291] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 0.917 seconds
+[2022-07-24 08:35:43,703] {processor.py:153} INFO - Started process (PID=25427) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:35:43,704] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:35:43,706] {logging_mixin.py:115} INFO - [2022-07-24 08:35:43,705] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:35:44,597] {processor.py:651} INFO - DAG(s) dict_keys(['dataquality_pipeline_v1']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:35:44,625] {logging_mixin.py:115} INFO - [2022-07-24 08:35:44,625] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:35:44,646] {logging_mixin.py:115} INFO - [2022-07-24 08:35:44,646] {dag.py:2972} INFO - Setting next_dagrun for dataquality_pipeline_v1 to None, run_after=None
+[2022-07-24 08:35:44,661] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 0.965 seconds
+[2022-07-24 08:36:14,919] {processor.py:153} INFO - Started process (PID=25501) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:36:14,920] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:36:14,921] {logging_mixin.py:115} INFO - [2022-07-24 08:36:14,921] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:36:15,843] {processor.py:651} INFO - DAG(s) dict_keys(['dataquality_pipeline_v1']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:36:15,871] {logging_mixin.py:115} INFO - [2022-07-24 08:36:15,871] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:36:15,892] {logging_mixin.py:115} INFO - [2022-07-24 08:36:15,892] {dag.py:2972} INFO - Setting next_dagrun for dataquality_pipeline_v1 to None, run_after=None
+[2022-07-24 08:36:15,906] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 0.993 seconds
+[2022-07-24 08:36:46,062] {processor.py:153} INFO - Started process (PID=25572) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:36:46,062] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:36:46,070] {logging_mixin.py:115} INFO - [2022-07-24 08:36:46,063] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:36:48,214] {processor.py:651} INFO - DAG(s) dict_keys(['dataquality_pipeline_v1']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:36:48,300] {logging_mixin.py:115} INFO - [2022-07-24 08:36:48,300] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:36:48,363] {logging_mixin.py:115} INFO - [2022-07-24 08:36:48,363] {dag.py:2972} INFO - Setting next_dagrun for dataquality_pipeline_v1 to None, run_after=None
+[2022-07-24 08:36:48,400] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 2.362 seconds
+[2022-07-24 08:37:18,793] {processor.py:153} INFO - Started process (PID=25639) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:37:18,794] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:37:18,797] {logging_mixin.py:115} INFO - [2022-07-24 08:37:18,796] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:37:19,688] {processor.py:651} INFO - DAG(s) dict_keys(['dataquality_pipeline_v1']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:37:19,715] {logging_mixin.py:115} INFO - [2022-07-24 08:37:19,715] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:37:19,742] {logging_mixin.py:115} INFO - [2022-07-24 08:37:19,742] {dag.py:2972} INFO - Setting next_dagrun for dataquality_pipeline_v1 to None, run_after=None
+[2022-07-24 08:37:19,758] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 0.978 seconds
+[2022-07-24 08:37:50,059] {processor.py:153} INFO - Started process (PID=25705) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:37:50,060] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:37:50,061] {logging_mixin.py:115} INFO - [2022-07-24 08:37:50,060] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:37:51,258] {processor.py:651} INFO - DAG(s) dict_keys(['dataquality_pipeline_v1']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:37:51,303] {logging_mixin.py:115} INFO - [2022-07-24 08:37:51,303] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:37:51,340] {logging_mixin.py:115} INFO - [2022-07-24 08:37:51,340] {dag.py:2972} INFO - Setting next_dagrun for dataquality_pipeline_v1 to None, run_after=None
+[2022-07-24 08:37:51,367] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 1.336 seconds
+[2022-07-24 08:38:21,503] {processor.py:153} INFO - Started process (PID=25779) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:38:21,503] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:38:21,504] {logging_mixin.py:115} INFO - [2022-07-24 08:38:21,504] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:38:22,389] {processor.py:651} INFO - DAG(s) dict_keys(['dataquality_pipeline_v1']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:38:22,416] {logging_mixin.py:115} INFO - [2022-07-24 08:38:22,416] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:38:22,438] {logging_mixin.py:115} INFO - [2022-07-24 08:38:22,438] {dag.py:2972} INFO - Setting next_dagrun for dataquality_pipeline_v1 to None, run_after=None
+[2022-07-24 08:38:22,450] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 0.955 seconds
+[2022-07-24 08:38:52,591] {processor.py:153} INFO - Started process (PID=25845) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:38:52,607] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:38:52,610] {logging_mixin.py:115} INFO - [2022-07-24 08:38:52,610] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:38:55,242] {processor.py:651} INFO - DAG(s) dict_keys(['dataquality_pipeline_v1']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:38:55,354] {logging_mixin.py:115} INFO - [2022-07-24 08:38:55,352] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:38:55,440] {logging_mixin.py:115} INFO - [2022-07-24 08:38:55,440] {dag.py:2972} INFO - Setting next_dagrun for dataquality_pipeline_v1 to None, run_after=None
+[2022-07-24 08:38:55,472] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 2.905 seconds
+[2022-07-24 08:39:25,637] {processor.py:153} INFO - Started process (PID=25918) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:39:25,638] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:39:25,640] {logging_mixin.py:115} INFO - [2022-07-24 08:39:25,640] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:39:27,041] {processor.py:651} INFO - DAG(s) dict_keys(['dataquality_pipeline_v1']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:39:27,087] {logging_mixin.py:115} INFO - [2022-07-24 08:39:27,087] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:39:27,123] {logging_mixin.py:115} INFO - [2022-07-24 08:39:27,123] {dag.py:2972} INFO - Setting next_dagrun for dataquality_pipeline_v1 to None, run_after=None
+[2022-07-24 08:39:27,140] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 1.511 seconds
+[2022-07-24 08:39:57,815] {processor.py:153} INFO - Started process (PID=25982) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:39:57,816] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:39:57,817] {logging_mixin.py:115} INFO - [2022-07-24 08:39:57,817] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:39:59,472] {processor.py:651} INFO - DAG(s) dict_keys(['dataquality_pipeline_v1']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:39:59,554] {logging_mixin.py:115} INFO - [2022-07-24 08:39:59,554] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:39:59,636] {logging_mixin.py:115} INFO - [2022-07-24 08:39:59,636] {dag.py:2972} INFO - Setting next_dagrun for dataquality_pipeline_v1 to None, run_after=None
+[2022-07-24 08:39:59,696] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 1.890 seconds
+[2022-07-24 08:40:29,860] {processor.py:153} INFO - Started process (PID=26056) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:40:29,861] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:40:29,861] {logging_mixin.py:115} INFO - [2022-07-24 08:40:29,861] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:40:30,769] {processor.py:651} INFO - DAG(s) dict_keys(['dataquality_pipeline_v1']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:40:30,815] {logging_mixin.py:115} INFO - [2022-07-24 08:40:30,815] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:40:30,858] {logging_mixin.py:115} INFO - [2022-07-24 08:40:30,858] {dag.py:2972} INFO - Setting next_dagrun for dataquality_pipeline_v1 to None, run_after=None
+[2022-07-24 08:40:30,877] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 1.023 seconds
+[2022-07-24 08:41:01,104] {processor.py:153} INFO - Started process (PID=26120) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:41:01,105] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:41:01,106] {logging_mixin.py:115} INFO - [2022-07-24 08:41:01,106] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:41:02,368] {processor.py:651} INFO - DAG(s) dict_keys(['dataquality_pipeline_v1']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:41:02,458] {logging_mixin.py:115} INFO - [2022-07-24 08:41:02,457] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:41:02,501] {logging_mixin.py:115} INFO - [2022-07-24 08:41:02,501] {dag.py:2972} INFO - Setting next_dagrun for dataquality_pipeline_v1 to None, run_after=None
+[2022-07-24 08:41:02,519] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 1.421 seconds
+[2022-07-24 08:41:33,057] {processor.py:153} INFO - Started process (PID=26189) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:41:33,058] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:41:33,059] {logging_mixin.py:115} INFO - [2022-07-24 08:41:33,059] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:41:34,889] {processor.py:651} INFO - DAG(s) dict_keys(['dataquality_pipeline_v1']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:41:34,968] {logging_mixin.py:115} INFO - [2022-07-24 08:41:34,968] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:41:35,034] {logging_mixin.py:115} INFO - [2022-07-24 08:41:35,034] {dag.py:2972} INFO - Setting next_dagrun for dataquality_pipeline_v1 to None, run_after=None
+[2022-07-24 08:41:35,066] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 2.021 seconds
+[2022-07-24 08:42:05,146] {processor.py:153} INFO - Started process (PID=26267) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:42:05,147] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:42:05,148] {logging_mixin.py:115} INFO - [2022-07-24 08:42:05,148] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:42:06,452] {processor.py:651} INFO - DAG(s) dict_keys(['dataquality_pipeline_v1']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:42:06,596] {logging_mixin.py:115} INFO - [2022-07-24 08:42:06,596] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:42:06,646] {logging_mixin.py:115} INFO - [2022-07-24 08:42:06,646] {dag.py:2972} INFO - Setting next_dagrun for dataquality_pipeline_v1 to None, run_after=None
+[2022-07-24 08:42:06,700] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 1.559 seconds
+[2022-07-24 08:42:37,261] {processor.py:153} INFO - Started process (PID=26332) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:42:37,262] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:42:37,263] {logging_mixin.py:115} INFO - [2022-07-24 08:42:37,263] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:42:39,008] {processor.py:651} INFO - DAG(s) dict_keys(['dataquality_pipeline_v1']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:42:39,149] {logging_mixin.py:115} INFO - [2022-07-24 08:42:39,148] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:42:39,196] {logging_mixin.py:115} INFO - [2022-07-24 08:42:39,196] {dag.py:2972} INFO - Setting next_dagrun for dataquality_pipeline_v1 to None, run_after=None
+[2022-07-24 08:42:39,220] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 1.966 seconds
+[2022-07-24 08:43:09,460] {processor.py:153} INFO - Started process (PID=26411) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:43:09,468] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:43:09,469] {logging_mixin.py:115} INFO - [2022-07-24 08:43:09,469] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:43:11,118] {processor.py:651} INFO - DAG(s) dict_keys(['dataquality_pipeline_v1']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:43:11,169] {logging_mixin.py:115} INFO - [2022-07-24 08:43:11,168] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:43:11,203] {logging_mixin.py:115} INFO - [2022-07-24 08:43:11,203] {dag.py:2972} INFO - Setting next_dagrun for dataquality_pipeline_v1 to None, run_after=None
+[2022-07-24 08:43:11,221] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 1.780 seconds
+[2022-07-24 08:43:41,863] {processor.py:153} INFO - Started process (PID=26490) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:43:41,865] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:43:41,866] {logging_mixin.py:115} INFO - [2022-07-24 08:43:41,866] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:43:42,891] {processor.py:651} INFO - DAG(s) dict_keys(['dataquality_pipeline_v1']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:43:42,918] {logging_mixin.py:115} INFO - [2022-07-24 08:43:42,918] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:43:42,939] {logging_mixin.py:115} INFO - [2022-07-24 08:43:42,939] {dag.py:2972} INFO - Setting next_dagrun for dataquality_pipeline_v1 to None, run_after=None
+[2022-07-24 08:43:42,955] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 1.101 seconds
+[2022-07-24 08:44:13,663] {processor.py:153} INFO - Started process (PID=26557) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:44:13,664] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:44:13,665] {logging_mixin.py:115} INFO - [2022-07-24 08:44:13,665] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:44:15,363] {processor.py:651} INFO - DAG(s) dict_keys(['dataquality_pipeline_v1']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:44:15,540] {logging_mixin.py:115} INFO - [2022-07-24 08:44:15,540] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:44:15,648] {logging_mixin.py:115} INFO - [2022-07-24 08:44:15,648] {dag.py:2972} INFO - Setting next_dagrun for dataquality_pipeline_v1 to None, run_after=None
+[2022-07-24 08:44:15,674] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 2.021 seconds
+[2022-07-24 08:44:46,293] {processor.py:153} INFO - Started process (PID=26633) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:44:46,296] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:44:46,297] {logging_mixin.py:115} INFO - [2022-07-24 08:44:46,297] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:44:48,804] {processor.py:651} INFO - DAG(s) dict_keys(['dataquality_pipeline_v1']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:44:48,839] {logging_mixin.py:115} INFO - [2022-07-24 08:44:48,839] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:44:48,861] {logging_mixin.py:115} INFO - [2022-07-24 08:44:48,861] {dag.py:2972} INFO - Setting next_dagrun for dataquality_pipeline_v1 to None, run_after=None
+[2022-07-24 08:44:48,873] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 2.599 seconds
+[2022-07-24 08:45:18,918] {processor.py:153} INFO - Started process (PID=26701) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:45:18,919] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:45:18,921] {logging_mixin.py:115} INFO - [2022-07-24 08:45:18,920] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:45:20,315] {processor.py:651} INFO - DAG(s) dict_keys(['dataquality_pipeline_v1']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:45:20,358] {logging_mixin.py:115} INFO - [2022-07-24 08:45:20,358] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:45:20,402] {logging_mixin.py:115} INFO - [2022-07-24 08:45:20,402] {dag.py:2972} INFO - Setting next_dagrun for dataquality_pipeline_v1 to None, run_after=None
+[2022-07-24 08:45:20,423] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 1.513 seconds
+[2022-07-24 08:45:51,033] {processor.py:153} INFO - Started process (PID=26779) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:45:51,034] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:45:51,035] {logging_mixin.py:115} INFO - [2022-07-24 08:45:51,035] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:45:51,879] {processor.py:651} INFO - DAG(s) dict_keys(['dataquality_pipeline_v1']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:45:51,908] {logging_mixin.py:115} INFO - [2022-07-24 08:45:51,908] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:45:51,929] {logging_mixin.py:115} INFO - [2022-07-24 08:45:51,929] {dag.py:2972} INFO - Setting next_dagrun for dataquality_pipeline_v1 to None, run_after=None
+[2022-07-24 08:45:51,942] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 0.916 seconds
+[2022-07-24 08:46:22,555] {processor.py:153} INFO - Started process (PID=26844) to work on /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:46:22,556] {processor.py:641} INFO - Processing file /opt/airflow/dags/dataquality_pipeline_v1.py for tasks to queue
+[2022-07-24 08:46:22,557] {logging_mixin.py:115} INFO - [2022-07-24 08:46:22,557] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:46:23,428] {processor.py:651} INFO - DAG(s) dict_keys(['dataquality_pipeline_v1']) retrieved from /opt/airflow/dags/dataquality_pipeline_v1.py
+[2022-07-24 08:46:23,456] {logging_mixin.py:115} INFO - [2022-07-24 08:46:23,456] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-24 08:46:23,477] {logging_mixin.py:115} INFO - [2022-07-24 08:46:23,477] {dag.py:2972} INFO - Setting next_dagrun for dataquality_pipeline_v1 to None, run_after=None
+[2022-07-24 08:46:23,490] {processor.py:161} INFO - Processing /opt/airflow/dags/dataquality_pipeline_v1.py took 0.943 seconds

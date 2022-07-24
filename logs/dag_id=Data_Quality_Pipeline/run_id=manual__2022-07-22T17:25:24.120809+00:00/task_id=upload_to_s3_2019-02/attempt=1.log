@@ -1,0 +1,73 @@
+[2022-07-22 17:25:35,975] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: Data_Quality_Pipeline.upload_to_s3_2019-02 manual__2022-07-22T17:25:24.120809+00:00 [queued]>
+[2022-07-22 17:25:36,004] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: Data_Quality_Pipeline.upload_to_s3_2019-02 manual__2022-07-22T17:25:24.120809+00:00 [queued]>
+[2022-07-22 17:25:36,005] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-22 17:25:36,005] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2022-07-22 17:25:36,005] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-22 17:25:36,068] {taskinstance.py:1397} INFO - Executing <Task(LocalFilesystemToS3Operator): upload_to_s3_2019-02> on 2022-07-22 17:25:24.120809+00:00
+[2022-07-22 17:25:36,081] {standard_task_runner.py:52} INFO - Started process 7918 to run task
+[2022-07-22 17:25:36,109] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'Data_Quality_Pipeline', 'upload_to_s3_2019-02', 'manual__2022-07-22T17:25:24.120809+00:00', '--job-id', '23', '--raw', '--subdir', 'DAGS_FOLDER/localtos3.py', '--cfg-path', '/tmp/tmpr2kourf5', '--error-file', '/tmp/tmpk6hy_ehw']
+[2022-07-22 17:25:36,126] {standard_task_runner.py:80} INFO - Job 23: Subtask upload_to_s3_2019-02
+[2022-07-22 17:25:36,343] {task_command.py:371} INFO - Running <TaskInstance: Data_Quality_Pipeline.upload_to_s3_2019-02 manual__2022-07-22T17:25:24.120809+00:00 [running]> on host d30608300872
+[2022-07-22 17:25:36,640] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=Data_Quality_Pipeline
+AIRFLOW_CTX_TASK_ID=upload_to_s3_2019-02
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-22T17:25:24.120809+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-22T17:25:24.120809+00:00
+[2022-07-22 17:25:36,664] {base.py:68} INFO - Using connection ID 'aws-conn' for task execution.
+[2022-07-22 17:25:36,949] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/transfers/local_to_s3.py", line 105, in execute
+    self.acl_policy,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 63, in wrapper
+    return func(*bound_args.args, **bound_args.kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 91, in wrapper
+    return func(*bound_args.args, **bound_args.kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 611, in load_file
+    client.upload_file(filename, bucket_name, key, ExtraArgs=extra_args, Config=self.transfer_config)
+  File "/home/airflow/.local/lib/python3.7/site-packages/boto3/s3/inject.py", line 148, in upload_file
+    callback=Callback,
+  File "/home/airflow/.local/lib/python3.7/site-packages/boto3/s3/transfer.py", line 288, in upload_file
+    future.result()
+  File "/home/airflow/.local/lib/python3.7/site-packages/s3transfer/futures.py", line 103, in result
+    return self._coordinator.result()
+  File "/home/airflow/.local/lib/python3.7/site-packages/s3transfer/futures.py", line 266, in result
+    raise self._exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/s3transfer/tasks.py", line 139, in __call__
+    return self._execute_main(kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/s3transfer/tasks.py", line 162, in _execute_main
+    return_value = self._main(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/s3transfer/upload.py", line 758, in _main
+    client.put_object(Bucket=bucket, Key=key, Body=body, **extra_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/client.py", line 508, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/client.py", line 899, in _make_api_call
+    operation_model, request_dict, request_context
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/client.py", line 921, in _make_request
+    return self._endpoint.make_request(operation_model, request_dict)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/endpoint.py", line 119, in make_request
+    return self._send_request(request_dict, operation_model)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/endpoint.py", line 198, in _send_request
+    request = self.create_request(request_dict, operation_model)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/endpoint.py", line 137, in create_request
+    operation_name=operation_model.name,
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/hooks.py", line 412, in emit
+    return self._emitter.emit(aliased_event_name, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/hooks.py", line 256, in emit
+    return self._emit(event_name, kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/hooks.py", line 239, in _emit
+    response = handler(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/signers.py", line 103, in handler
+    return self.sign(operation_name, request)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/signers.py", line 187, in sign
+    auth.add_auth(request)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/auth.py", line 407, in add_auth
+    raise NoCredentialsError()
+botocore.exceptions.NoCredentialsError: Unable to locate credentials
+[2022-07-22 17:25:36,969] {taskinstance.py:1420} INFO - Marking task as FAILED. dag_id=Data_Quality_Pipeline, task_id=upload_to_s3_2019-02, execution_date=20220722T172524, start_date=20220722T172535, end_date=20220722T172536
+[2022-07-22 17:25:37,004] {standard_task_runner.py:97} ERROR - Failed to execute job 23 for task upload_to_s3_2019-02 (Unable to locate credentials; 7918)
+[2022-07-22 17:25:37,060] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-07-22 17:25:37,218] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
