@@ -1,0 +1,41 @@
+[2022-07-26 09:31:46,991] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dataquality_pipeline_v1.create_snowflake_stage manual__2022-07-26T09:31:20.211065+00:00 [queued]>
+[2022-07-26 09:31:47,006] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dataquality_pipeline_v1.create_snowflake_stage manual__2022-07-26T09:31:20.211065+00:00 [queued]>
+[2022-07-26 09:31:47,007] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-26 09:31:47,007] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2022-07-26 09:31:47,007] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-26 09:31:47,052] {taskinstance.py:1397} INFO - Executing <Task(SnowflakeOperator): create_snowflake_stage> on 2022-07-26 09:31:20.211065+00:00
+[2022-07-26 09:31:47,069] {standard_task_runner.py:52} INFO - Started process 1557 to run task
+[2022-07-26 09:31:47,089] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'dataquality_pipeline_v1', 'create_snowflake_stage', 'manual__2022-07-26T09:31:20.211065+00:00', '--job-id', '111', '--raw', '--subdir', 'DAGS_FOLDER/dataquality_pipeline_v1.py', '--cfg-path', '/tmp/tmpjgxd7jdj', '--error-file', '/tmp/tmp7sziiq_v']
+[2022-07-26 09:31:47,092] {standard_task_runner.py:80} INFO - Job 111: Subtask create_snowflake_stage
+[2022-07-26 09:31:47,280] {task_command.py:371} INFO - Running <TaskInstance: dataquality_pipeline_v1.create_snowflake_stage manual__2022-07-26T09:31:20.211065+00:00 [running]> on host d19767594dfa
+[2022-07-26 09:31:47,575] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dataquality_pipeline_v1
+AIRFLOW_CTX_TASK_ID=create_snowflake_stage
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-26T09:31:20.211065+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-26T09:31:20.211065+00:00
+[2022-07-26 09:31:47,577] {snowflake.py:118} INFO - Executing: CREATE OR REPLACE STAGE YELLOW_TRIPDATA_STAGE url=s3://snowflakedata212
+credentials=(aws_key_id='AKIA3LREOZJOXQMV7ZUN' aws_secret_key='***')
+file_format=(type = 'CSV', skip_header = 1, time_format = 'YYYY-MM-DD HH24:MI:SS');
+[2022-07-26 09:31:47,590] {base.py:68} INFO - Using connection ID 'snowflake_default' for task execution.
+[2022-07-26 09:31:47,600] {connection.py:262} INFO - Snowflake Connector for Python Version: 2.7.9, Python Version: 3.7.13, Platform: Linux-5.15.0-1014-azure-x86_64-with-debian-11.4
+[2022-07-26 09:31:47,601] {connection.py:877} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2022-07-26 09:31:47,602] {connection.py:894} INFO - Setting use_openssl_only mode to False
+[2022-07-26 09:31:49,463] {cursor.py:710} INFO - query: [ALTER SESSION SET autocommit=True]
+[2022-07-26 09:31:49,740] {cursor.py:734} INFO - query execution done
+[2022-07-26 09:31:49,741] {snowflake.py:328} INFO - Running statement: CREATE OR REPLACE STAGE YELLOW_TRIPDATA_STAGE url=s3://snowflakedata212
+credentials=(aws_key_id='AKIA3LREOZJOXQMV7ZUN' aws_secret_key='***')
+file_format=(type = 'CSV', skip_header = 1, time_format = 'YYYY-MM-DD HH24:MI:SS');, parameters: None
+[2022-07-26 09:31:49,741] {cursor.py:710} INFO - query: [CREATE OR REPLACE STAGE YELLOW_TRIPDATA_STAGE url=s3://snowflakedata212 credenti...]
+[2022-07-26 09:31:51,009] {cursor.py:734} INFO - query execution done
+[2022-07-26 09:31:51,010] {snowflake.py:338} INFO - Statement execution info - {'status': 'Stage area YELLOW_TRIPDATA_STAGE successfully created.'}
+[2022-07-26 09:31:51,010] {snowflake.py:342} INFO - Rows affected: 1
+[2022-07-26 09:31:51,010] {snowflake.py:343} INFO - Snowflake query id: 01a5dc9b-0000-da7c-0000-22590005c91e
+[2022-07-26 09:31:51,011] {connection.py:507} INFO - closed
+[2022-07-26 09:31:51,253] {connection.py:510} INFO - No async queries seem to be running, deleting session
+[2022-07-26 09:31:51,701] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=dataquality_pipeline_v1, task_id=create_snowflake_stage, execution_date=20220726T093120, start_date=20220726T093146, end_date=20220726T093151
+[2022-07-26 09:31:51,790] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-07-26 09:31:51,993] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,28 @@
+[2022-07-27 19:46:12,660] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dataquality_pipeline_v3.send_email_notification manual__2022-07-27T19:44:56.114008+00:00 [queued]>
+[2022-07-27 19:46:12,675] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dataquality_pipeline_v3.send_email_notification manual__2022-07-27T19:44:56.114008+00:00 [queued]>
+[2022-07-27 19:46:12,676] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-27 19:46:12,676] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2022-07-27 19:46:12,676] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-27 19:46:12,702] {taskinstance.py:1397} INFO - Executing <Task(EmailOperator): send_email_notification> on 2022-07-27 19:44:56.114008+00:00
+[2022-07-27 19:46:12,712] {standard_task_runner.py:52} INFO - Started process 10672 to run task
+[2022-07-27 19:46:12,722] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'dataquality_pipeline_v3', 'send_email_notification', 'manual__2022-07-27T19:44:56.114008+00:00', '--job-id', '179', '--raw', '--subdir', 'DAGS_FOLDER/dataquality_pipeline_v3.py', '--cfg-path', '/tmp/tmpp64j6scg', '--error-file', '/tmp/tmp2quix9dd']
+[2022-07-27 19:46:12,724] {standard_task_runner.py:80} INFO - Job 179: Subtask send_email_notification
+[2022-07-27 19:46:12,838] {task_command.py:371} INFO - Running <TaskInstance: dataquality_pipeline_v3.send_email_notification manual__2022-07-27T19:44:56.114008+00:00 [running]> on host 2c2de32fb47f
+[2022-07-27 19:46:12,984] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=abin404@yopmail.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dataquality_pipeline_v3
+AIRFLOW_CTX_TASK_ID=send_email_notification
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-27T19:44:56.114008+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-27T19:44:56.114008+00:00
+[2022-07-27 19:46:13,003] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/email.py:119: PendingDeprecationWarning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+  send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+
+[2022-07-27 19:46:13,004] {email.py:228} INFO - Email alerting: attempt 1
+[2022-07-27 19:46:13,521] {email.py:240} INFO - Sent an alert email to ['abin404@yopmail.com']
+[2022-07-27 19:46:14,840] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=dataquality_pipeline_v3, task_id=send_email_notification, execution_date=20220727T194456, start_date=20220727T194612, end_date=20220727T194614
+[2022-07-27 19:46:14,904] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-07-27 19:46:14,991] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

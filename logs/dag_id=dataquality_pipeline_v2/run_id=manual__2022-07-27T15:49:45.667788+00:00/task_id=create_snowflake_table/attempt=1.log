@@ -1,0 +1,76 @@
+[2022-07-27 15:50:04,940] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dataquality_pipeline_v2.create_snowflake_table manual__2022-07-27T15:49:45.667788+00:00 [queued]>
+[2022-07-27 15:50:04,955] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dataquality_pipeline_v2.create_snowflake_table manual__2022-07-27T15:49:45.667788+00:00 [queued]>
+[2022-07-27 15:50:04,955] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-27 15:50:04,955] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2022-07-27 15:50:04,955] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-27 15:50:04,981] {taskinstance.py:1397} INFO - Executing <Task(SnowflakeOperator): create_snowflake_table> on 2022-07-27 15:49:45.667788+00:00
+[2022-07-27 15:50:04,996] {standard_task_runner.py:52} INFO - Started process 274 to run task
+[2022-07-27 15:50:05,009] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'dataquality_pipeline_v2', 'create_snowflake_table', 'manual__2022-07-27T15:49:45.667788+00:00', '--job-id', '133', '--raw', '--subdir', 'DAGS_FOLDER/dataquality_pipeline_v2.py', '--cfg-path', '/tmp/tmpzfk_2lnp', '--error-file', '/tmp/tmpb6fsnaid']
+[2022-07-27 15:50:05,012] {standard_task_runner.py:80} INFO - Job 133: Subtask create_snowflake_table
+[2022-07-27 15:50:05,150] {task_command.py:371} INFO - Running <TaskInstance: dataquality_pipeline_v2.create_snowflake_table manual__2022-07-27T15:49:45.667788+00:00 [running]> on host 2c2de32fb47f
+[2022-07-27 15:50:05,372] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=abin404@yopmail.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dataquality_pipeline_v2
+AIRFLOW_CTX_TASK_ID=create_snowflake_table
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-27T15:49:45.667788+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-27T15:49:45.667788+00:00
+[2022-07-27 15:50:05,374] {snowflake.py:118} INFO - Executing: CREATE TABLE IF NOT EXISTS PUBLIC.YELLOW_TRIPDATA
+(vendor_id int,
+pickup_datetime timestamp,
+dropoff_datetime timestamp,
+passenger_count int,
+trip_distance float,
+rate_code_id int,
+store_and_fwd_flag varchar,
+pickup_location_id int,
+dropoff_location_id int,
+payment_type int,
+fare_amount float,
+extra float,
+mta_tax float,
+tip_amount float,
+tolls_amount float,
+improvement_surcharge float,
+total_amount float,
+congestion_surcharge float,
+upload_date timestamp);
+[2022-07-27 15:50:05,398] {base.py:68} INFO - Using connection ID 'snowflake_default' for task execution.
+[2022-07-27 15:50:05,406] {connection.py:262} INFO - Snowflake Connector for Python Version: 2.7.9, Python Version: 3.7.13, Platform: Linux-5.15.0-1014-azure-x86_64-with-debian-11.4
+[2022-07-27 15:50:05,415] {connection.py:877} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2022-07-27 15:50:05,415] {connection.py:894} INFO - Setting use_openssl_only mode to False
+[2022-07-27 15:50:07,081] {cursor.py:710} INFO - query: [ALTER SESSION SET autocommit=True]
+[2022-07-27 15:50:07,362] {cursor.py:734} INFO - query execution done
+[2022-07-27 15:50:07,362] {snowflake.py:328} INFO - Running statement: CREATE TABLE IF NOT EXISTS PUBLIC.YELLOW_TRIPDATA
+(vendor_id int,
+pickup_datetime timestamp,
+dropoff_datetime timestamp,
+passenger_count int,
+trip_distance float,
+rate_code_id int,
+store_and_fwd_flag varchar,
+pickup_location_id int,
+dropoff_location_id int,
+payment_type int,
+fare_amount float,
+extra float,
+mta_tax float,
+tip_amount float,
+tolls_amount float,
+improvement_surcharge float,
+total_amount float,
+congestion_surcharge float,
+upload_date timestamp);, parameters: None
+[2022-07-27 15:50:07,362] {cursor.py:710} INFO - query: [CREATE TABLE IF NOT EXISTS PUBLIC.YELLOW_TRIPDATA (vendor_id int, pickup_datetim...]
+[2022-07-27 15:50:07,665] {cursor.py:734} INFO - query execution done
+[2022-07-27 15:50:07,665] {snowflake.py:338} INFO - Statement execution info - {'status': 'YELLOW_TRIPDATA already exists, statement succeeded.'}
+[2022-07-27 15:50:07,666] {snowflake.py:342} INFO - Rows affected: 1
+[2022-07-27 15:50:07,666] {snowflake.py:343} INFO - Snowflake query id: 01a5e3b6-0000-da87-0000-2259000630e6
+[2022-07-27 15:50:07,666] {connection.py:507} INFO - closed
+[2022-07-27 15:50:07,895] {connection.py:510} INFO - No async queries seem to be running, deleting session
+[2022-07-27 15:50:08,188] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=dataquality_pipeline_v2, task_id=create_snowflake_table, execution_date=20220727T154945, start_date=20220727T155004, end_date=20220727T155008
+[2022-07-27 15:50:08,239] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-07-27 15:50:08,297] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

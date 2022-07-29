@@ -1,0 +1,46 @@
+[2022-07-26 09:32:19,989] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dataquality_pipeline_v1.check_interval_data manual__2022-07-26T09:31:20.211065+00:00 [queued]>
+[2022-07-26 09:32:20,051] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dataquality_pipeline_v1.check_interval_data manual__2022-07-26T09:31:20.211065+00:00 [queued]>
+[2022-07-26 09:32:20,051] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-26 09:32:20,052] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2022-07-26 09:32:20,052] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-26 09:32:20,219] {taskinstance.py:1397} INFO - Executing <Task(SnowflakeIntervalCheckOperator): check_interval_data> on 2022-07-26 09:31:20.211065+00:00
+[2022-07-26 09:32:20,291] {standard_task_runner.py:52} INFO - Started process 1598 to run task
+[2022-07-26 09:32:20,355] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'dataquality_pipeline_v1', 'check_interval_data', 'manual__2022-07-26T09:31:20.211065+00:00', '--job-id', '113', '--raw', '--subdir', 'DAGS_FOLDER/dataquality_pipeline_v1.py', '--cfg-path', '/tmp/tmpyx9n0bsu', '--error-file', '/tmp/tmpjnvhfo7u']
+[2022-07-26 09:32:20,407] {standard_task_runner.py:80} INFO - Job 113: Subtask check_interval_data
+[2022-07-26 09:32:21,049] {task_command.py:371} INFO - Running <TaskInstance: dataquality_pipeline_v1.check_interval_data manual__2022-07-26T09:31:20.211065+00:00 [running]> on host d19767594dfa
+[2022-07-26 09:32:23,770] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dataquality_pipeline_v1
+AIRFLOW_CTX_TASK_ID=check_interval_data
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-26T09:31:20.211065+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-26T09:31:20.211065+00:00
+[2022-07-26 09:32:23,784] {sql.py:327} INFO - Using ratio formula: max_over_min
+[2022-07-26 09:32:23,785] {sql.py:328} INFO - Executing SQL check: SELECT AVG(trip_distance) FROM YELLOW_TRIPDATA WHERE upload_date='2022-07-25'
+[2022-07-26 09:32:23,872] {base.py:68} INFO - Using connection ID 'snowflake_default' for task execution.
+[2022-07-26 09:32:23,980] {connection.py:262} INFO - Snowflake Connector for Python Version: 2.7.9, Python Version: 3.7.13, Platform: Linux-5.15.0-1014-azure-x86_64-with-debian-11.4
+[2022-07-26 09:32:23,981] {connection.py:877} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2022-07-26 09:32:23,981] {connection.py:894} INFO - Setting use_openssl_only mode to False
+[2022-07-26 09:32:33,458] {cursor.py:710} INFO - query: [SELECT AVG(trip_distance) FROM YELLOW_TRIPDATA WHERE upload_date='2022-07-25']
+[2022-07-26 09:32:33,970] {cursor.py:734} INFO - query execution done
+[2022-07-26 09:32:33,972] {connection.py:507} INFO - closed
+[2022-07-26 09:32:34,218] {connection.py:510} INFO - No async queries seem to be running, deleting session
+[2022-07-26 09:32:34,503] {sql.py:330} INFO - Executing SQL check: SELECT AVG(trip_distance) FROM YELLOW_TRIPDATA WHERE upload_date='2022-07-26'
+[2022-07-26 09:32:34,591] {base.py:68} INFO - Using connection ID 'snowflake_default' for task execution.
+[2022-07-26 09:32:34,675] {connection.py:262} INFO - Snowflake Connector for Python Version: 2.7.9, Python Version: 3.7.13, Platform: Linux-5.15.0-1014-azure-x86_64-with-debian-11.4
+[2022-07-26 09:32:34,676] {connection.py:877} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2022-07-26 09:32:35,926] {cursor.py:710} INFO - query: [SELECT AVG(trip_distance) FROM YELLOW_TRIPDATA WHERE upload_date='2022-07-26']
+[2022-07-26 09:32:36,281] {cursor.py:734} INFO - query execution done
+[2022-07-26 09:32:36,282] {connection.py:507} INFO - closed
+[2022-07-26 09:32:36,513] {connection.py:510} INFO - No async queries seem to be running, deleting session
+[2022-07-26 09:32:36,791] {sql.py:368} INFO - Current metric for AVG(trip_distance): 2.758991
+Past metric for AVG(trip_distance): 2.804018
+Ratio for AVG(trip_distance): 1.016320096731015
+Threshold: 1.5
+
+[2022-07-26 09:32:36,792] {sql.py:387} INFO - All tests have passed
+[2022-07-26 09:32:36,845] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=dataquality_pipeline_v1, task_id=check_interval_data, execution_date=20220726T093120, start_date=20220726T093219, end_date=20220726T093236
+[2022-07-26 09:32:36,947] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-07-26 09:32:37,059] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

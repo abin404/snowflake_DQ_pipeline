@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS {{ conn.my_snowflake_conn.schema }}.{{ params.table_name }}
+CREATE OR REPLACE TABLE {{ conn.my_snowflake_conn.schema }}.{{ params.table_name }}
 (vendor_id int,
 pickup_datetime timestamp,
 dropoff_datetime timestamp,

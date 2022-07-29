@@ -1,0 +1,25 @@
+[2022-07-28 09:41:20,294] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dataquality_pipeline_v4.s3_delete_objects manual__2022-07-28T09:37:55.889580+00:00 [queued]>
+[2022-07-28 09:41:20,352] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dataquality_pipeline_v4.s3_delete_objects manual__2022-07-28T09:37:55.889580+00:00 [queued]>
+[2022-07-28 09:41:20,353] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-28 09:41:20,353] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2022-07-28 09:41:20,353] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-28 09:41:20,437] {taskinstance.py:1397} INFO - Executing <Task(S3DeleteObjectsOperator): s3_delete_objects> on 2022-07-28 09:37:55.889580+00:00
+[2022-07-28 09:41:20,467] {standard_task_runner.py:52} INFO - Started process 1076 to run task
+[2022-07-28 09:41:20,499] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'dataquality_pipeline_v4', 's3_delete_objects', 'manual__2022-07-28T09:37:55.889580+00:00', '--job-id', '198', '--raw', '--subdir', 'DAGS_FOLDER/dataquality_pipeline_v4.py', '--cfg-path', '/tmp/tmp30sst_xm', '--error-file', '/tmp/tmpuxm_j4_e']
+[2022-07-28 09:41:20,514] {standard_task_runner.py:80} INFO - Job 198: Subtask s3_delete_objects
+[2022-07-28 09:41:20,895] {task_command.py:371} INFO - Running <TaskInstance: dataquality_pipeline_v4.s3_delete_objects manual__2022-07-28T09:37:55.889580+00:00 [running]> on host 2c2de32fb47f
+[2022-07-28 09:41:21,493] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=abin404@yopmail.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dataquality_pipeline_v4
+AIRFLOW_CTX_TASK_ID=s3_delete_objects
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-28T09:37:55.889580+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-28T09:37:55.889580+00:00
+[2022-07-28 09:41:21,568] {base.py:68} INFO - Using connection ID 'aws-conn' for task execution.
+[2022-07-28 09:41:21,570] {base_aws.py:206} INFO - Credentials retrieved from login
+[2022-07-28 09:41:22,475] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=dataquality_pipeline_v4, task_id=s3_delete_objects, execution_date=20220728T093755, start_date=20220728T094120, end_date=20220728T094122
+[2022-07-28 09:41:22,572] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-07-28 09:41:22,691] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

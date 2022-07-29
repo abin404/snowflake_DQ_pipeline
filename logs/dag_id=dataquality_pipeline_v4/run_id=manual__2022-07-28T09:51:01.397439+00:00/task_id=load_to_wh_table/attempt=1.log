@@ -1,0 +1,40 @@
+[2022-07-28 09:52:28,889] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dataquality_pipeline_v4.load_to_wh_table manual__2022-07-28T09:51:01.397439+00:00 [queued]>
+[2022-07-28 09:52:28,980] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dataquality_pipeline_v4.load_to_wh_table manual__2022-07-28T09:51:01.397439+00:00 [queued]>
+[2022-07-28 09:52:28,981] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-28 09:52:28,981] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2022-07-28 09:52:28,981] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-28 09:52:29,082] {taskinstance.py:1397} INFO - Executing <Task(SnowflakeOperator): load_to_wh_table> on 2022-07-28 09:51:01.397439+00:00
+[2022-07-28 09:52:29,098] {standard_task_runner.py:52} INFO - Started process 1552 to run task
+[2022-07-28 09:52:29,110] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'dataquality_pipeline_v4', 'load_to_wh_table', 'manual__2022-07-28T09:51:01.397439+00:00', '--job-id', '213', '--raw', '--subdir', 'DAGS_FOLDER/dataquality_pipeline_v4.py', '--cfg-path', '/tmp/tmp2ac8743s', '--error-file', '/tmp/tmp3_kzpi88']
+[2022-07-28 09:52:29,113] {standard_task_runner.py:80} INFO - Job 213: Subtask load_to_wh_table
+[2022-07-28 09:52:29,288] {task_command.py:371} INFO - Running <TaskInstance: dataquality_pipeline_v4.load_to_wh_table manual__2022-07-28T09:51:01.397439+00:00 [running]> on host 2c2de32fb47f
+[2022-07-28 09:52:29,630] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=abin404@yopmail.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dataquality_pipeline_v4
+AIRFLOW_CTX_TASK_ID=load_to_wh_table
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-28T09:51:01.397439+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-28T09:51:01.397439+00:00
+[2022-07-28 09:52:29,632] {snowflake.py:118} INFO - Executing: INSERT INTO TAXI_DATA_DW_TABLE
+SELECT * FROM YELLOW_TRIPDATA;
+[2022-07-28 09:52:29,701] {base.py:68} INFO - Using connection ID 'snowflake_default' for task execution.
+[2022-07-28 09:52:29,735] {connection.py:262} INFO - Snowflake Connector for Python Version: 2.7.9, Python Version: 3.7.13, Platform: Linux-5.15.0-1014-azure-x86_64-with-debian-11.4
+[2022-07-28 09:52:29,737] {connection.py:877} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2022-07-28 09:52:29,737] {connection.py:894} INFO - Setting use_openssl_only mode to False
+[2022-07-28 09:52:31,643] {cursor.py:710} INFO - query: [ALTER SESSION SET autocommit=True]
+[2022-07-28 09:52:31,934] {cursor.py:734} INFO - query execution done
+[2022-07-28 09:52:31,934] {snowflake.py:328} INFO - Running statement: INSERT INTO TAXI_DATA_DW_TABLE
+SELECT * FROM YELLOW_TRIPDATA;, parameters: None
+[2022-07-28 09:52:31,935] {cursor.py:710} INFO - query: [INSERT INTO TAXI_DATA_DW_TABLE SELECT * FROM YELLOW_TRIPDATA;]
+[2022-07-28 09:52:32,857] {cursor.py:734} INFO - query execution done
+[2022-07-28 09:52:32,858] {snowflake.py:338} INFO - Statement execution info - {'number of rows inserted': 19252}
+[2022-07-28 09:52:32,858] {snowflake.py:342} INFO - Rows affected: 19252
+[2022-07-28 09:52:32,858] {snowflake.py:343} INFO - Snowflake query id: 01a5e7f0-0000-da87-0000-225900065dea
+[2022-07-28 09:52:32,859] {connection.py:507} INFO - closed
+[2022-07-28 09:52:33,093] {connection.py:510} INFO - No async queries seem to be running, deleting session
+[2022-07-28 09:52:33,440] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=dataquality_pipeline_v4, task_id=load_to_wh_table, execution_date=20220728T095101, start_date=20220728T095228, end_date=20220728T095233
+[2022-07-28 09:52:33,518] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-07-28 09:52:33,630] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

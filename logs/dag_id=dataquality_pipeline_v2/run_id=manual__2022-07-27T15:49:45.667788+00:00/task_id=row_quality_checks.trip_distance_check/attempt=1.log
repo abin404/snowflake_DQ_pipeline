@@ -1,0 +1,40 @@
+[2022-07-27 15:53:13,458] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dataquality_pipeline_v2.row_quality_checks.trip_distance_check manual__2022-07-27T15:49:45.667788+00:00 [queued]>
+[2022-07-27 15:53:13,526] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dataquality_pipeline_v2.row_quality_checks.trip_distance_check manual__2022-07-27T15:49:45.667788+00:00 [queued]>
+[2022-07-27 15:53:13,527] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-27 15:53:13,527] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2022-07-27 15:53:13,527] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-27 15:53:13,575] {taskinstance.py:1397} INFO - Executing <Task(SnowflakeCheckOperator): row_quality_checks.trip_distance_check> on 2022-07-27 15:49:45.667788+00:00
+[2022-07-27 15:53:13,612] {standard_task_runner.py:52} INFO - Started process 436 to run task
+[2022-07-27 15:53:13,659] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'dataquality_pipeline_v2', 'row_quality_checks.trip_distance_check', 'manual__2022-07-27T15:49:45.667788+00:00', '--job-id', '140', '--raw', '--subdir', 'DAGS_FOLDER/dataquality_pipeline_v2.py', '--cfg-path', '/tmp/tmpki8l0tuv', '--error-file', '/tmp/tmpai_e0qnz']
+[2022-07-27 15:53:13,661] {standard_task_runner.py:80} INFO - Job 140: Subtask row_quality_checks.trip_distance_check
+[2022-07-27 15:53:13,966] {task_command.py:371} INFO - Running <TaskInstance: dataquality_pipeline_v2.row_quality_checks.trip_distance_check manual__2022-07-27T15:49:45.667788+00:00 [running]> on host 2c2de32fb47f
+[2022-07-27 15:53:14,532] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=abin404@yopmail.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dataquality_pipeline_v2
+AIRFLOW_CTX_TASK_ID=row_quality_checks.trip_distance_check
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-27T15:49:45.667788+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-27T15:49:45.667788+00:00
+[2022-07-27 15:53:14,538] {sql.py:139} INFO - Executing SQL check: -- Template to check various columns in the yellow tripdata data set.
+SELECT MIN(trip_distance_check)
+FROM(
+  SELECT
+    CASE WHEN trip_distance >= 0 AND trip_distance <= 100 THEN 1 ELSE 0 END AS trip_distance_check
+  FROM YELLOW_TRIPDATA
+)
+[2022-07-27 15:53:14,584] {base.py:68} INFO - Using connection ID 'snowflake_default' for task execution.
+[2022-07-27 15:53:14,611] {connection.py:262} INFO - Snowflake Connector for Python Version: 2.7.9, Python Version: 3.7.13, Platform: Linux-5.15.0-1014-azure-x86_64-with-debian-11.4
+[2022-07-27 15:53:14,612] {connection.py:877} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2022-07-27 15:53:14,612] {connection.py:894} INFO - Setting use_openssl_only mode to False
+[2022-07-27 15:53:17,485] {cursor.py:710} INFO - query: [-- Template to check various columns in the yellow tripdata data set. SELECT MIN...]
+[2022-07-27 15:53:17,756] {cursor.py:734} INFO - query execution done
+[2022-07-27 15:53:17,758] {connection.py:507} INFO - closed
+[2022-07-27 15:53:17,987] {connection.py:510} INFO - No async queries seem to be running, deleting session
+[2022-07-27 15:53:18,246] {sql.py:142} INFO - Record: (1,)
+[2022-07-27 15:53:18,247] {sql.py:148} INFO - Success.
+[2022-07-27 15:53:18,387] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=dataquality_pipeline_v2, task_id=row_quality_checks.trip_distance_check, execution_date=20220727T154945, start_date=20220727T155313, end_date=20220727T155318
+[2022-07-27 15:53:18,584] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-07-27 15:53:19,034] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

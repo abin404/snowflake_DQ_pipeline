@@ -1,0 +1,70 @@
+[2022-07-27 18:46:24,553] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dataquality_pipeline_v3.row_quality_checks.trip_distance_check manual__2022-07-27T18:45:32.236182+00:00 [queued]>
+[2022-07-27 18:46:24,671] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dataquality_pipeline_v3.row_quality_checks.trip_distance_check manual__2022-07-27T18:45:32.236182+00:00 [queued]>
+[2022-07-27 18:46:24,671] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-27 18:46:24,671] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2022-07-27 18:46:24,672] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-27 18:46:24,782] {taskinstance.py:1397} INFO - Executing <Task(SnowflakeCheckOperator): row_quality_checks.trip_distance_check> on 2022-07-27 18:45:32.236182+00:00
+[2022-07-27 18:46:24,839] {standard_task_runner.py:52} INFO - Started process 8006 to run task
+[2022-07-27 18:46:24,890] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'dataquality_pipeline_v3', 'row_quality_checks.trip_distance_check', 'manual__2022-07-27T18:45:32.236182+00:00', '--job-id', '159', '--raw', '--subdir', 'DAGS_FOLDER/dataquality_pipeline_v3.py', '--cfg-path', '/tmp/tmpha67_3vh', '--error-file', '/tmp/tmp0pdwzl_w']
+[2022-07-27 18:46:24,903] {standard_task_runner.py:80} INFO - Job 159: Subtask row_quality_checks.trip_distance_check
+[2022-07-27 18:46:25,616] {task_command.py:371} INFO - Running <TaskInstance: dataquality_pipeline_v3.row_quality_checks.trip_distance_check manual__2022-07-27T18:45:32.236182+00:00 [running]> on host 2c2de32fb47f
+[2022-07-27 18:46:26,657] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=abin404@yopmail.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dataquality_pipeline_v3
+AIRFLOW_CTX_TASK_ID=row_quality_checks.trip_distance_check
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-27T18:45:32.236182+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-27T18:45:32.236182+00:00
+[2022-07-27 18:46:26,658] {sql.py:139} INFO - Executing SQL check: -- Template to check various columns in the yellow tripdata data set.
+SELECT MIN(trip_distance_check)
+FROM(
+  SELECT
+    CASE WHEN trip_distance >= 0 AND trip_distance <= 100 THEN 1 ELSE 0 END AS trip_distance_check
+  FROM YELLOW_TRIPDATA
+)
+[2022-07-27 18:46:26,805] {base.py:68} INFO - Using connection ID 'snowflake_default' for task execution.
+[2022-07-27 18:46:26,869] {connection.py:262} INFO - Snowflake Connector for Python Version: 2.7.9, Python Version: 3.7.13, Platform: Linux-5.15.0-1014-azure-x86_64-with-debian-11.4
+[2022-07-27 18:46:26,870] {connection.py:877} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2022-07-27 18:46:26,896] {connection.py:894} INFO - Setting use_openssl_only mode to False
+[2022-07-27 18:46:31,393] {cursor.py:710} INFO - query: [-- Template to check various columns in the yellow tripdata data set. SELECT MIN...]
+[2022-07-27 18:46:32,072] {cursor.py:734} INFO - query execution done
+[2022-07-27 18:46:32,074] {connection.py:507} INFO - closed
+[2022-07-27 18:46:32,328] {connection.py:510} INFO - No async queries seem to be running, deleting session
+[2022-07-27 18:46:32,606] {sql.py:142} INFO - Record: (0,)
+[2022-07-27 18:46:33,652] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/sql.py", line 146, in execute
+    raise AirflowException(f"Test failed.\nQuery:\n{self.sql}\nResults:\n{records!s}")
+airflow.exceptions.AirflowException: Test failed.
+Query:
+-- Template to check various columns in the yellow tripdata data set.
+SELECT MIN(trip_distance_check)
+FROM(
+  SELECT
+    CASE WHEN trip_distance >= 0 AND trip_distance <= 100 THEN 1 ELSE 0 END AS trip_distance_check
+  FROM YELLOW_TRIPDATA
+)
+Results:
+(0,)
+[2022-07-27 18:46:33,693] {taskinstance.py:1420} INFO - Marking task as FAILED. dag_id=dataquality_pipeline_v3, task_id=row_quality_checks.trip_distance_check, execution_date=20220727T184532, start_date=20220727T184624, end_date=20220727T184633
+[2022-07-27 18:46:33,824] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/email.py:119: PendingDeprecationWarning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+  send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+
+[2022-07-27 18:46:33,825] {email.py:228} INFO - Email alerting: attempt 1
+[2022-07-27 18:46:34,349] {email.py:240} INFO - Sent an alert email to ['abin404@yopmail.com']
+[2022-07-27 18:46:35,467] {standard_task_runner.py:97} ERROR - Failed to execute job 159 for task row_quality_checks.trip_distance_check (Test failed.
+Query:
+-- Template to check various columns in the yellow tripdata data set.
+SELECT MIN(trip_distance_check)
+FROM(
+  SELECT
+    CASE WHEN trip_distance >= 0 AND trip_distance <= 100 THEN 1 ELSE 0 END AS trip_distance_check
+  FROM YELLOW_TRIPDATA
+)
+Results:
+(0,); 8006)
+[2022-07-27 18:46:35,535] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-07-27 18:46:35,745] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

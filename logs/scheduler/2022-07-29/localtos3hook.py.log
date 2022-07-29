@@ -1,0 +1,1078 @@
+[2022-07-29 02:17:18,837] {processor.py:153} INFO - Started process (PID=71) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:17:18,838] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:17:18,839] {logging_mixin.py:115} INFO - [2022-07-29 02:17:18,839] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:17:22,486] {logging_mixin.py:115} INFO - [2022-07-29 02:17:22,478] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:17:22,486] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:17:22,536] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 3.726 seconds
+[2022-07-29 02:17:53,426] {processor.py:153} INFO - Started process (PID=145) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:17:53,432] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:17:53,433] {logging_mixin.py:115} INFO - [2022-07-29 02:17:53,433] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:17:55,322] {logging_mixin.py:115} INFO - [2022-07-29 02:17:55,321] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:17:55,322] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:17:55,440] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 2.025 seconds
+[2022-07-29 02:18:25,606] {processor.py:153} INFO - Started process (PID=229) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:18:25,607] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:18:25,608] {logging_mixin.py:115} INFO - [2022-07-29 02:18:25,608] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:18:27,247] {logging_mixin.py:115} INFO - [2022-07-29 02:18:27,245] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:18:27,248] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:18:27,277] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.688 seconds
+[2022-07-29 02:18:57,399] {processor.py:153} INFO - Started process (PID=304) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:18:57,419] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:18:57,420] {logging_mixin.py:115} INFO - [2022-07-29 02:18:57,420] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:18:59,319] {logging_mixin.py:115} INFO - [2022-07-29 02:18:59,318] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:18:59,320] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:18:59,340] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.963 seconds
+[2022-07-29 02:19:29,554] {processor.py:153} INFO - Started process (PID=378) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:19:29,555] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:19:29,556] {logging_mixin.py:115} INFO - [2022-07-29 02:19:29,556] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:19:30,289] {logging_mixin.py:115} INFO - [2022-07-29 02:19:30,288] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:19:30,289] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:19:30,312] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 0.766 seconds
+[2022-07-29 02:20:00,675] {processor.py:153} INFO - Started process (PID=461) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:20:00,677] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:20:00,678] {logging_mixin.py:115} INFO - [2022-07-29 02:20:00,678] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:20:01,648] {logging_mixin.py:115} INFO - [2022-07-29 02:20:01,647] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:20:01,648] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:20:01,670] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.001 seconds
+[2022-07-29 02:20:32,183] {processor.py:153} INFO - Started process (PID=530) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:20:32,192] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:20:32,193] {logging_mixin.py:115} INFO - [2022-07-29 02:20:32,193] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:20:33,837] {logging_mixin.py:115} INFO - [2022-07-29 02:20:33,835] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:20:33,837] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:20:33,868] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.700 seconds
+[2022-07-29 02:21:04,191] {processor.py:153} INFO - Started process (PID=614) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:21:04,192] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:21:04,193] {logging_mixin.py:115} INFO - [2022-07-29 02:21:04,193] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:21:05,378] {logging_mixin.py:115} INFO - [2022-07-29 02:21:05,376] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:21:05,378] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:21:05,406] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.221 seconds
+[2022-07-29 02:21:35,556] {processor.py:153} INFO - Started process (PID=687) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:21:35,567] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:21:35,576] {logging_mixin.py:115} INFO - [2022-07-29 02:21:35,576] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:21:39,570] {logging_mixin.py:115} INFO - [2022-07-29 02:21:39,559] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:21:39,570] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:21:39,633] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 4.091 seconds
+[2022-07-29 02:22:12,284] {processor.py:153} INFO - Started process (PID=770) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:22:12,285] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:22:12,285] {logging_mixin.py:115} INFO - [2022-07-29 02:22:12,285] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:22:13,547] {logging_mixin.py:115} INFO - [2022-07-29 02:22:13,545] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:22:13,547] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:22:13,576] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.299 seconds
+[2022-07-29 02:22:44,039] {processor.py:153} INFO - Started process (PID=843) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:22:44,039] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:22:44,040] {logging_mixin.py:115} INFO - [2022-07-29 02:22:44,040] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:22:46,046] {logging_mixin.py:115} INFO - [2022-07-29 02:22:46,045] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:22:46,046] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:22:46,096] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 2.064 seconds
+[2022-07-29 02:23:17,466] {processor.py:153} INFO - Started process (PID=925) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:23:17,472] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:23:17,473] {logging_mixin.py:115} INFO - [2022-07-29 02:23:17,473] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:23:19,380] {logging_mixin.py:115} INFO - [2022-07-29 02:23:19,378] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:23:19,380] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:23:19,437] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.987 seconds
+[2022-07-29 02:23:50,431] {processor.py:153} INFO - Started process (PID=998) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:23:50,432] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:23:50,433] {logging_mixin.py:115} INFO - [2022-07-29 02:23:50,433] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:23:51,601] {logging_mixin.py:115} INFO - [2022-07-29 02:23:51,600] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:23:51,601] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:23:51,633] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.210 seconds
+[2022-07-29 02:24:22,266] {processor.py:153} INFO - Started process (PID=1078) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:24:22,272] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:24:22,273] {logging_mixin.py:115} INFO - [2022-07-29 02:24:22,273] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:24:24,120] {logging_mixin.py:115} INFO - [2022-07-29 02:24:24,110] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:24:24,120] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:24:24,160] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.901 seconds
+[2022-07-29 02:24:54,549] {processor.py:153} INFO - Started process (PID=1152) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:24:54,550] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:24:54,551] {logging_mixin.py:115} INFO - [2022-07-29 02:24:54,551] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:24:56,149] {logging_mixin.py:115} INFO - [2022-07-29 02:24:56,146] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:24:56,150] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:24:56,207] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.665 seconds
+[2022-07-29 02:25:26,686] {processor.py:153} INFO - Started process (PID=1225) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:25:26,687] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:25:26,688] {logging_mixin.py:115} INFO - [2022-07-29 02:25:26,688] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:25:28,113] {logging_mixin.py:115} INFO - [2022-07-29 02:25:28,111] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:25:28,113] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:25:28,148] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.469 seconds
+[2022-07-29 02:25:58,840] {processor.py:153} INFO - Started process (PID=1307) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:25:58,841] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:25:58,842] {logging_mixin.py:115} INFO - [2022-07-29 02:25:58,841] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:26:01,198] {logging_mixin.py:115} INFO - [2022-07-29 02:26:01,197] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:26:01,199] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:26:01,248] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 2.415 seconds
+[2022-07-29 02:26:31,596] {processor.py:153} INFO - Started process (PID=1380) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:26:31,597] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:26:31,598] {logging_mixin.py:115} INFO - [2022-07-29 02:26:31,598] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:26:33,330] {logging_mixin.py:115} INFO - [2022-07-29 02:26:33,329] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:26:33,331] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:26:33,358] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.780 seconds
+[2022-07-29 02:27:03,755] {processor.py:153} INFO - Started process (PID=1462) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:27:03,765] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:27:03,766] {logging_mixin.py:115} INFO - [2022-07-29 02:27:03,766] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:27:06,196] {logging_mixin.py:115} INFO - [2022-07-29 02:27:06,194] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:27:06,196] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:27:06,236] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 2.499 seconds
+[2022-07-29 02:27:37,050] {processor.py:153} INFO - Started process (PID=1535) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:27:37,052] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:27:37,053] {logging_mixin.py:115} INFO - [2022-07-29 02:27:37,053] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:27:38,261] {logging_mixin.py:115} INFO - [2022-07-29 02:27:38,259] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:27:38,261] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:27:38,287] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.246 seconds
+[2022-07-29 02:28:09,001] {processor.py:153} INFO - Started process (PID=1617) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:28:09,002] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:28:09,003] {logging_mixin.py:115} INFO - [2022-07-29 02:28:09,002] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:28:10,455] {logging_mixin.py:115} INFO - [2022-07-29 02:28:10,454] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:28:10,456] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:28:10,512] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.518 seconds
+[2022-07-29 02:28:41,157] {processor.py:153} INFO - Started process (PID=1690) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:28:41,158] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:28:41,159] {logging_mixin.py:115} INFO - [2022-07-29 02:28:41,158] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:28:42,302] {logging_mixin.py:115} INFO - [2022-07-29 02:28:42,300] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:28:42,302] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:28:42,330] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.181 seconds
+[2022-07-29 02:29:12,554] {processor.py:153} INFO - Started process (PID=1773) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:29:12,555] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:29:12,556] {logging_mixin.py:115} INFO - [2022-07-29 02:29:12,556] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:29:13,744] {logging_mixin.py:115} INFO - [2022-07-29 02:29:13,734] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:29:13,744] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:29:13,803] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.256 seconds
+[2022-07-29 02:29:44,194] {processor.py:153} INFO - Started process (PID=1846) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:29:44,195] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:29:44,196] {logging_mixin.py:115} INFO - [2022-07-29 02:29:44,196] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:29:45,425] {logging_mixin.py:115} INFO - [2022-07-29 02:29:45,424] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:29:45,426] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:29:45,480] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.293 seconds
+[2022-07-29 02:30:16,166] {processor.py:153} INFO - Started process (PID=1924) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:30:16,176] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:30:16,177] {logging_mixin.py:115} INFO - [2022-07-29 02:30:16,177] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:30:19,013] {logging_mixin.py:115} INFO - [2022-07-29 02:30:19,011] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:30:19,013] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:30:19,062] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 2.910 seconds
+[2022-07-29 02:30:49,713] {processor.py:153} INFO - Started process (PID=1999) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:30:49,717] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:30:49,718] {logging_mixin.py:115} INFO - [2022-07-29 02:30:49,718] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:30:52,117] {logging_mixin.py:115} INFO - [2022-07-29 02:30:52,115] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:30:52,117] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:30:52,156] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 2.449 seconds
+[2022-07-29 02:31:22,414] {processor.py:153} INFO - Started process (PID=2073) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:31:22,415] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:31:22,419] {logging_mixin.py:115} INFO - [2022-07-29 02:31:22,419] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:31:24,008] {logging_mixin.py:115} INFO - [2022-07-29 02:31:24,006] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:31:24,008] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:31:24,055] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.647 seconds
+[2022-07-29 02:31:54,272] {processor.py:153} INFO - Started process (PID=2155) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:31:54,273] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:31:54,273] {logging_mixin.py:115} INFO - [2022-07-29 02:31:54,273] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:31:56,333] {logging_mixin.py:115} INFO - [2022-07-29 02:31:56,331] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:31:56,333] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:31:56,379] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 2.134 seconds
+[2022-07-29 02:32:26,485] {processor.py:153} INFO - Started process (PID=2228) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:32:26,487] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:32:26,488] {logging_mixin.py:115} INFO - [2022-07-29 02:32:26,488] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:32:28,302] {logging_mixin.py:115} INFO - [2022-07-29 02:32:28,301] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:32:28,303] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:32:28,331] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.876 seconds
+[2022-07-29 02:32:59,113] {processor.py:153} INFO - Started process (PID=2301) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:32:59,114] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:32:59,115] {logging_mixin.py:115} INFO - [2022-07-29 02:32:59,115] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:33:00,268] {logging_mixin.py:115} INFO - [2022-07-29 02:33:00,267] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:33:00,268] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:33:00,294] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.189 seconds
+[2022-07-29 02:33:31,194] {processor.py:153} INFO - Started process (PID=2383) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:33:31,194] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:33:31,195] {logging_mixin.py:115} INFO - [2022-07-29 02:33:31,195] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:33:33,841] {logging_mixin.py:115} INFO - [2022-07-29 02:33:33,839] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:33:33,841] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:33:33,934] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 2.749 seconds
+[2022-07-29 02:34:04,158] {processor.py:153} INFO - Started process (PID=2458) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:34:04,159] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:34:04,160] {logging_mixin.py:115} INFO - [2022-07-29 02:34:04,160] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:34:05,904] {logging_mixin.py:115} INFO - [2022-07-29 02:34:05,902] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:34:05,904] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:34:05,965] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.814 seconds
+[2022-07-29 02:34:36,412] {processor.py:153} INFO - Started process (PID=2538) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:34:36,425] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:34:36,425] {logging_mixin.py:115} INFO - [2022-07-29 02:34:36,425] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:34:39,300] {logging_mixin.py:115} INFO - [2022-07-29 02:34:39,298] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:34:39,300] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:34:39,332] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 2.936 seconds
+[2022-07-29 02:35:09,466] {processor.py:153} INFO - Started process (PID=2621) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:35:09,467] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:35:09,468] {logging_mixin.py:115} INFO - [2022-07-29 02:35:09,468] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:35:11,199] {logging_mixin.py:115} INFO - [2022-07-29 02:35:11,198] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:35:11,200] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:35:11,247] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.801 seconds
+[2022-07-29 02:35:42,014] {processor.py:153} INFO - Started process (PID=2697) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:35:42,015] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:35:42,016] {logging_mixin.py:115} INFO - [2022-07-29 02:35:42,016] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:35:44,297] {logging_mixin.py:115} INFO - [2022-07-29 02:35:44,283] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:35:44,297] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:35:44,388] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 2.380 seconds
+[2022-07-29 02:36:15,689] {processor.py:153} INFO - Started process (PID=2779) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:36:15,696] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:36:15,697] {logging_mixin.py:115} INFO - [2022-07-29 02:36:15,697] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:36:18,075] {logging_mixin.py:115} INFO - [2022-07-29 02:36:18,073] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:36:18,075] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:36:18,104] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 2.454 seconds
+[2022-07-29 02:36:48,390] {processor.py:153} INFO - Started process (PID=2854) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:36:48,390] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:36:48,391] {logging_mixin.py:115} INFO - [2022-07-29 02:36:48,391] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:36:49,513] {logging_mixin.py:115} INFO - [2022-07-29 02:36:49,511] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:36:49,513] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:36:49,540] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.157 seconds
+[2022-07-29 02:37:20,331] {processor.py:153} INFO - Started process (PID=2929) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:37:20,332] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:37:20,333] {logging_mixin.py:115} INFO - [2022-07-29 02:37:20,333] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:37:21,408] {logging_mixin.py:115} INFO - [2022-07-29 02:37:21,406] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:37:21,408] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:37:21,438] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.113 seconds
+[2022-07-29 02:37:52,152] {processor.py:153} INFO - Started process (PID=3012) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:37:52,155] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:37:52,156] {logging_mixin.py:115} INFO - [2022-07-29 02:37:52,156] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:37:54,199] {logging_mixin.py:115} INFO - [2022-07-29 02:37:54,197] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:37:54,199] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:37:54,240] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 2.103 seconds
+[2022-07-29 02:38:24,905] {processor.py:153} INFO - Started process (PID=3087) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:38:24,906] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:38:24,907] {logging_mixin.py:115} INFO - [2022-07-29 02:38:24,907] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:38:27,242] {logging_mixin.py:115} INFO - [2022-07-29 02:38:27,240] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:38:27,242] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:38:27,292] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 2.394 seconds
+[2022-07-29 02:38:57,698] {processor.py:153} INFO - Started process (PID=3162) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:38:57,699] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:38:57,700] {logging_mixin.py:115} INFO - [2022-07-29 02:38:57,699] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:39:00,868] {logging_mixin.py:115} INFO - [2022-07-29 02:39:00,867] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:39:00,869] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:39:00,918] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 3.228 seconds
+[2022-07-29 02:39:31,460] {processor.py:153} INFO - Started process (PID=3245) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:39:31,461] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:39:31,461] {logging_mixin.py:115} INFO - [2022-07-29 02:39:31,461] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:39:32,958] {logging_mixin.py:115} INFO - [2022-07-29 02:39:32,957] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:39:32,959] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:39:32,988] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.546 seconds
+[2022-07-29 02:40:03,045] {processor.py:153} INFO - Started process (PID=3320) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:40:03,046] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:40:03,047] {logging_mixin.py:115} INFO - [2022-07-29 02:40:03,047] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:40:04,194] {logging_mixin.py:115} INFO - [2022-07-29 02:40:04,192] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:40:04,194] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:40:04,224] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.187 seconds
+[2022-07-29 02:40:34,536] {processor.py:153} INFO - Started process (PID=3403) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:40:34,544] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:40:34,545] {logging_mixin.py:115} INFO - [2022-07-29 02:40:34,545] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:40:36,997] {logging_mixin.py:115} INFO - [2022-07-29 02:40:36,995] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:40:36,997] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:40:37,100] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 2.580 seconds
+[2022-07-29 02:41:07,224] {processor.py:153} INFO - Started process (PID=3478) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:41:07,225] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:41:07,226] {logging_mixin.py:115} INFO - [2022-07-29 02:41:07,226] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:41:08,501] {logging_mixin.py:115} INFO - [2022-07-29 02:41:08,500] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:41:08,501] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:41:08,550] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.332 seconds
+[2022-07-29 02:41:38,841] {processor.py:153} INFO - Started process (PID=3559) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:41:38,842] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:41:38,843] {logging_mixin.py:115} INFO - [2022-07-29 02:41:38,843] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:41:39,985] {logging_mixin.py:115} INFO - [2022-07-29 02:41:39,984] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:41:39,986] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:41:40,028] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.193 seconds
+[2022-07-29 02:42:10,077] {processor.py:153} INFO - Started process (PID=3633) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:42:10,078] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:42:10,079] {logging_mixin.py:115} INFO - [2022-07-29 02:42:10,078] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:42:11,186] {logging_mixin.py:115} INFO - [2022-07-29 02:42:11,184] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:42:11,186] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:42:11,218] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.149 seconds
+[2022-07-29 02:42:44,392] {processor.py:153} INFO - Started process (PID=3714) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:42:44,400] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:42:44,401] {logging_mixin.py:115} INFO - [2022-07-29 02:42:44,401] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:42:46,082] {logging_mixin.py:115} INFO - [2022-07-29 02:42:46,080] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:42:46,082] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:42:46,118] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.733 seconds
+[2022-07-29 02:43:16,265] {processor.py:153} INFO - Started process (PID=3789) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:43:16,266] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:43:16,267] {logging_mixin.py:115} INFO - [2022-07-29 02:43:16,267] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:43:17,413] {logging_mixin.py:115} INFO - [2022-07-29 02:43:17,411] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:43:17,413] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:43:17,444] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.186 seconds
+[2022-07-29 02:43:48,714] {processor.py:153} INFO - Started process (PID=3864) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:43:48,723] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:43:48,724] {logging_mixin.py:115} INFO - [2022-07-29 02:43:48,724] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:43:50,544] {logging_mixin.py:115} INFO - [2022-07-29 02:43:50,543] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:43:50,545] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:43:50,574] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.876 seconds
+[2022-07-29 02:44:20,993] {processor.py:153} INFO - Started process (PID=3942) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:44:21,000] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:44:21,001] {logging_mixin.py:115} INFO - [2022-07-29 02:44:21,001] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:44:22,419] {logging_mixin.py:115} INFO - [2022-07-29 02:44:22,418] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:44:22,420] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:44:22,453] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.479 seconds
+[2022-07-29 02:44:52,679] {processor.py:153} INFO - Started process (PID=4016) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:44:52,680] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:44:52,680] {logging_mixin.py:115} INFO - [2022-07-29 02:44:52,680] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:44:54,816] {logging_mixin.py:115} INFO - [2022-07-29 02:44:54,810] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:44:54,816] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:44:54,893] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 2.221 seconds
+[2022-07-29 02:45:25,346] {processor.py:153} INFO - Started process (PID=4101) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:45:25,346] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:45:25,347] {logging_mixin.py:115} INFO - [2022-07-29 02:45:25,347] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:45:27,231] {logging_mixin.py:115} INFO - [2022-07-29 02:45:27,223] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:45:27,234] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:45:27,280] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.941 seconds
+[2022-07-29 02:45:57,769] {processor.py:153} INFO - Started process (PID=4176) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:45:57,770] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:45:57,771] {logging_mixin.py:115} INFO - [2022-07-29 02:45:57,770] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:45:58,711] {logging_mixin.py:115} INFO - [2022-07-29 02:45:58,710] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:45:58,712] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:45:58,751] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 0.989 seconds
+[2022-07-29 02:46:28,947] {processor.py:153} INFO - Started process (PID=4248) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:46:28,948] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:46:28,949] {logging_mixin.py:115} INFO - [2022-07-29 02:46:28,949] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:46:30,331] {logging_mixin.py:115} INFO - [2022-07-29 02:46:30,329] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:46:30,331] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:46:30,361] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.420 seconds
+[2022-07-29 02:47:01,389] {processor.py:153} INFO - Started process (PID=4330) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:47:01,390] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:47:01,391] {logging_mixin.py:115} INFO - [2022-07-29 02:47:01,391] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:47:02,773] {logging_mixin.py:115} INFO - [2022-07-29 02:47:02,762] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:47:02,773] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:47:02,836] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.453 seconds
+[2022-07-29 02:47:33,302] {processor.py:153} INFO - Started process (PID=4403) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:47:33,303] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:47:33,304] {logging_mixin.py:115} INFO - [2022-07-29 02:47:33,304] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:47:34,057] {logging_mixin.py:115} INFO - [2022-07-29 02:47:34,055] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:47:34,057] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:47:34,084] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 0.789 seconds
+[2022-07-29 02:48:04,346] {processor.py:153} INFO - Started process (PID=4486) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:48:04,347] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:48:04,351] {logging_mixin.py:115} INFO - [2022-07-29 02:48:04,347] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:48:06,331] {logging_mixin.py:115} INFO - [2022-07-29 02:48:06,328] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:48:06,331] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:48:06,382] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 2.042 seconds
+[2022-07-29 02:48:36,745] {processor.py:153} INFO - Started process (PID=4562) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:48:36,746] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:48:36,747] {logging_mixin.py:115} INFO - [2022-07-29 02:48:36,747] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:48:37,714] {logging_mixin.py:115} INFO - [2022-07-29 02:48:37,711] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:48:37,714] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:48:37,753] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.015 seconds
+[2022-07-29 02:49:08,605] {processor.py:153} INFO - Started process (PID=4643) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:49:08,606] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:49:08,607] {logging_mixin.py:115} INFO - [2022-07-29 02:49:08,606] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:49:10,296] {logging_mixin.py:115} INFO - [2022-07-29 02:49:10,293] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:49:10,296] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:49:10,388] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.791 seconds
+[2022-07-29 02:49:40,562] {processor.py:153} INFO - Started process (PID=4724) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:49:40,563] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:49:40,564] {logging_mixin.py:115} INFO - [2022-07-29 02:49:40,564] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:49:41,542] {logging_mixin.py:115} INFO - [2022-07-29 02:49:41,539] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:49:41,543] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:49:41,586] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.031 seconds
+[2022-07-29 02:50:12,014] {processor.py:153} INFO - Started process (PID=4797) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:50:12,024] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:50:12,025] {logging_mixin.py:115} INFO - [2022-07-29 02:50:12,025] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:50:13,960] {logging_mixin.py:115} INFO - [2022-07-29 02:50:13,950] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:50:13,961] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:50:14,012] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 2.013 seconds
+[2022-07-29 02:50:44,753] {processor.py:153} INFO - Started process (PID=4881) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:50:44,754] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:50:44,755] {logging_mixin.py:115} INFO - [2022-07-29 02:50:44,755] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:50:45,683] {logging_mixin.py:115} INFO - [2022-07-29 02:50:45,680] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:50:45,683] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:50:45,736] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 0.990 seconds
+[2022-07-29 02:51:16,143] {processor.py:153} INFO - Started process (PID=4956) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:51:16,144] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:51:16,144] {logging_mixin.py:115} INFO - [2022-07-29 02:51:16,144] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:51:17,026] {logging_mixin.py:115} INFO - [2022-07-29 02:51:17,023] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:51:17,026] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:51:17,064] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 0.927 seconds
+[2022-07-29 02:51:47,531] {processor.py:153} INFO - Started process (PID=5039) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:51:47,532] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:51:47,533] {logging_mixin.py:115} INFO - [2022-07-29 02:51:47,533] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:51:49,134] {logging_mixin.py:115} INFO - [2022-07-29 02:51:49,132] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:51:49,134] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:51:49,169] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.645 seconds
+[2022-07-29 02:52:19,328] {processor.py:153} INFO - Started process (PID=5120) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:52:19,335] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:52:19,336] {logging_mixin.py:115} INFO - [2022-07-29 02:52:19,336] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:52:20,942] {logging_mixin.py:115} INFO - [2022-07-29 02:52:20,939] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:52:20,942] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:52:20,975] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.661 seconds
+[2022-07-29 02:52:51,425] {processor.py:153} INFO - Started process (PID=5195) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:52:51,426] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:52:51,427] {logging_mixin.py:115} INFO - [2022-07-29 02:52:51,427] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:52:52,869] {logging_mixin.py:115} INFO - [2022-07-29 02:52:52,866] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:52:52,869] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:52:52,911] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.493 seconds
+[2022-07-29 02:53:23,698] {processor.py:153} INFO - Started process (PID=5269) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:53:23,699] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:53:23,700] {logging_mixin.py:115} INFO - [2022-07-29 02:53:23,700] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:53:25,101] {logging_mixin.py:115} INFO - [2022-07-29 02:53:25,095] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:53:25,102] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:53:25,159] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.468 seconds
+[2022-07-29 02:53:55,545] {processor.py:153} INFO - Started process (PID=5351) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:53:55,547] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:53:55,547] {logging_mixin.py:115} INFO - [2022-07-29 02:53:55,547] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:53:56,502] {logging_mixin.py:115} INFO - [2022-07-29 02:53:56,499] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:53:56,502] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:53:56,534] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 0.996 seconds
+[2022-07-29 02:54:26,577] {processor.py:153} INFO - Started process (PID=5425) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:54:26,578] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:54:26,579] {logging_mixin.py:115} INFO - [2022-07-29 02:54:26,579] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:54:27,514] {logging_mixin.py:115} INFO - [2022-07-29 02:54:27,512] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:54:27,515] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:54:27,555] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 0.986 seconds
+[2022-07-29 02:54:57,691] {processor.py:153} INFO - Started process (PID=5498) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:54:57,692] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:54:57,693] {logging_mixin.py:115} INFO - [2022-07-29 02:54:57,693] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:55:00,216] {logging_mixin.py:115} INFO - [2022-07-29 02:55:00,207] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:55:00,217] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:55:00,267] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 2.594 seconds
+[2022-07-29 02:55:31,002] {processor.py:153} INFO - Started process (PID=5580) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:55:31,003] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:55:31,003] {logging_mixin.py:115} INFO - [2022-07-29 02:55:31,003] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:55:31,959] {logging_mixin.py:115} INFO - [2022-07-29 02:55:31,956] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:55:31,959] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:55:31,995] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.001 seconds
+[2022-07-29 02:56:02,123] {processor.py:153} INFO - Started process (PID=5653) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:56:02,124] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:56:02,124] {logging_mixin.py:115} INFO - [2022-07-29 02:56:02,124] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:56:03,413] {logging_mixin.py:115} INFO - [2022-07-29 02:56:03,410] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:56:03,413] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:56:03,522] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.407 seconds
+[2022-07-29 02:56:34,029] {processor.py:153} INFO - Started process (PID=5736) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:56:34,030] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:56:34,031] {logging_mixin.py:115} INFO - [2022-07-29 02:56:34,030] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:56:35,065] {logging_mixin.py:115} INFO - [2022-07-29 02:56:35,062] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:56:35,065] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:56:35,101] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.080 seconds
+[2022-07-29 02:57:05,220] {processor.py:153} INFO - Started process (PID=5810) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:57:05,220] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:57:05,221] {logging_mixin.py:115} INFO - [2022-07-29 02:57:05,221] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:57:07,006] {logging_mixin.py:115} INFO - [2022-07-29 02:57:07,004] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:57:07,007] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:57:07,132] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.920 seconds
+[2022-07-29 02:57:37,739] {processor.py:153} INFO - Started process (PID=5893) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:57:37,742] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:57:37,742] {logging_mixin.py:115} INFO - [2022-07-29 02:57:37,742] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:57:40,000] {logging_mixin.py:115} INFO - [2022-07-29 02:57:39,997] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:57:40,000] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:57:40,034] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 2.311 seconds
+[2022-07-29 02:58:10,245] {processor.py:153} INFO - Started process (PID=5968) to work on /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:58:10,246] {processor.py:641} INFO - Processing file /opt/airflow/dags/localtos3hook.py for tasks to queue
+[2022-07-29 02:58:10,247] {logging_mixin.py:115} INFO - [2022-07-29 02:58:10,247] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:58:11,984] {logging_mixin.py:115} INFO - [2022-07-29 02:58:11,982] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/localtos3hook.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/localtos3hook.py", line 10, in <module>
+    from plugins.snowflake_check_operators import (
+ModuleNotFoundError: No module named 'plugins'
+[2022-07-29 02:58:11,985] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/localtos3hook.py
+[2022-07-29 02:58:12,066] {processor.py:161} INFO - Processing /opt/airflow/dags/localtos3hook.py took 1.833 seconds

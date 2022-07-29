@@ -1,0 +1,64 @@
+[2022-07-26 09:32:20,578] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dataquality_pipeline_v1.row_quality_checks.date_check manual__2022-07-26T09:31:20.211065+00:00 [queued]>
+[2022-07-26 09:32:20,795] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dataquality_pipeline_v1.row_quality_checks.date_check manual__2022-07-26T09:31:20.211065+00:00 [queued]>
+[2022-07-26 09:32:20,795] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-26 09:32:20,795] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2022-07-26 09:32:20,796] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-26 09:32:20,919] {taskinstance.py:1397} INFO - Executing <Task(SnowflakeCheckOperator): row_quality_checks.date_check> on 2022-07-26 09:31:20.211065+00:00
+[2022-07-26 09:32:20,964] {standard_task_runner.py:52} INFO - Started process 1599 to run task
+[2022-07-26 09:32:20,990] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'dataquality_pipeline_v1', 'row_quality_checks.date_check', 'manual__2022-07-26T09:31:20.211065+00:00', '--job-id', '114', '--raw', '--subdir', 'DAGS_FOLDER/dataquality_pipeline_v1.py', '--cfg-path', '/tmp/tmp8xma8ji8', '--error-file', '/tmp/tmp8m9mh50e']
+[2022-07-26 09:32:20,998] {standard_task_runner.py:80} INFO - Job 114: Subtask row_quality_checks.date_check
+[2022-07-26 09:32:21,446] {task_command.py:371} INFO - Running <TaskInstance: dataquality_pipeline_v1.row_quality_checks.date_check manual__2022-07-26T09:31:20.211065+00:00 [running]> on host d19767594dfa
+[2022-07-26 09:32:23,822] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dataquality_pipeline_v1
+AIRFLOW_CTX_TASK_ID=row_quality_checks.date_check
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-26T09:31:20.211065+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-26T09:31:20.211065+00:00
+[2022-07-26 09:32:23,832] {sql.py:139} INFO - Executing SQL check: -- Template to check various columns in the yellow tripdata data set.
+SELECT MIN(date_check)
+FROM(
+  SELECT
+    CASE WHEN dropoff_datetime > pickup_datetime THEN 1 ELSE 0 END AS date_check
+  FROM YELLOW_TRIPDATA
+)
+[2022-07-26 09:32:23,928] {base.py:68} INFO - Using connection ID 'snowflake_default' for task execution.
+[2022-07-26 09:32:24,056] {connection.py:262} INFO - Snowflake Connector for Python Version: 2.7.9, Python Version: 3.7.13, Platform: Linux-5.15.0-1014-azure-x86_64-with-debian-11.4
+[2022-07-26 09:32:24,057] {connection.py:877} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2022-07-26 09:32:24,058] {connection.py:894} INFO - Setting use_openssl_only mode to False
+[2022-07-26 09:32:33,129] {cursor.py:710} INFO - query: [-- Template to check various columns in the yellow tripdata data set. SELECT MIN...]
+[2022-07-26 09:32:33,781] {cursor.py:734} INFO - query execution done
+[2022-07-26 09:32:33,783] {connection.py:507} INFO - closed
+[2022-07-26 09:32:34,027] {connection.py:510} INFO - No async queries seem to be running, deleting session
+[2022-07-26 09:32:34,328] {sql.py:142} INFO - Record: (0,)
+[2022-07-26 09:32:34,442] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/sql.py", line 146, in execute
+    raise AirflowException(f"Test failed.\nQuery:\n{self.sql}\nResults:\n{records!s}")
+airflow.exceptions.AirflowException: Test failed.
+Query:
+-- Template to check various columns in the yellow tripdata data set.
+SELECT MIN(date_check)
+FROM(
+  SELECT
+    CASE WHEN dropoff_datetime > pickup_datetime THEN 1 ELSE 0 END AS date_check
+  FROM YELLOW_TRIPDATA
+)
+Results:
+(0,)
+[2022-07-26 09:32:34,474] {taskinstance.py:1420} INFO - Marking task as FAILED. dag_id=dataquality_pipeline_v1, task_id=row_quality_checks.date_check, execution_date=20220726T093120, start_date=20220726T093220, end_date=20220726T093234
+[2022-07-26 09:32:34,591] {standard_task_runner.py:97} ERROR - Failed to execute job 114 for task row_quality_checks.date_check (Test failed.
+Query:
+-- Template to check various columns in the yellow tripdata data set.
+SELECT MIN(date_check)
+FROM(
+  SELECT
+    CASE WHEN dropoff_datetime > pickup_datetime THEN 1 ELSE 0 END AS date_check
+  FROM YELLOW_TRIPDATA
+)
+Results:
+(0,); 1599)
+[2022-07-26 09:32:34,650] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-07-26 09:32:35,019] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
